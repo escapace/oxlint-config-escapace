@@ -1,0 +1,33 @@
+name: codeql-analysis
+
+on:
+  push:
+    branches:
+      - trunk
+    paths-ignore:
+      - README.md
+      - LICENSE
+
+permissions:
+  contents: read
+
+jobs:
+  context:
+    permissions:
+      checks: read
+      contents: read
+      pull-requests: read
+      statuses: read
+    uses: escapace/workflows/.github/workflows/context.yaml@trunk
+
+  codeql-analysis:
+    needs:
+      - context
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    uses: escapace/workflows/.github/workflows/codeql.yaml@trunk
+    with:
+      languages: javascript-typescript
+      ref: ${{ needs.context.outputs.ref }}

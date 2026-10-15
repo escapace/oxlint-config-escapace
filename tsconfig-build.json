@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declarationDir": ".cache/types",
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "src/command",
+    "src/engines/oxlint/plugins",
+    "src/generated/residual-groups"
+  ],
+  "extends": "./tsconfig.json",
+  "include": ["src"]
+}

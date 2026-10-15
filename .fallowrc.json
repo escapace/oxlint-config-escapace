@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fallow-rs/fallow/main/schema.json",
+  "duplicates": {
+    "ignore": ["src/configuration/**", "src/generated/**"]
+  },
+  "entry": [
+    "rolldown.config.ts",
+    "scripts/rolldown-plugin-residual.ts",
+    "src/engines/oxlint/plugins/*.ts",
+    "src/generated/residual-groups/*.ts",
+    "src/**/*.spec.ts",
+    "test/**/*.spec.ts",
+    "syncpack.config.mjs",
+    "src/engines/oxlint/escapace/index.ts"
+  ],
+  "framework": [
+    {
+      "detection": {
+        "pattern": "scripts/codegen*.ts",
+        "type": "fileExists"
+      },
+      "entryPointRole": "support",
+      "entryPoints": ["scripts/codegen*.ts"],
+      "name": "maintenance-codegen",
+      "toolingDependencies": ["json-schema-to-typescript", "@typescript-eslint/utils", "ajv"]
+    }
+  ],
+  "health": {
+    "ignore": ["src/configuration/**", "src/generated/**"]
+  },
+  "ignoreDependencies": [
+    "@astrojs/compiler-rs",
+    "@eslint/css-tree",
+    "@microsoft/tsdoc*",
+    "@stylistic/*",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "@typescript-eslint/rule-tester",
+    "@typescript-eslint/scope-manager",
+    "@typescript-eslint/utils",
+    "astro-eslint-parser",
+    "es-toolkit",
+    "eslint",
+    "eslint-plugin-*",
+    "ignore",
+    "jsonc-eslint-parser",
+    "oxlint",
+    "oxlint-config-escapace",
+    "oxlint-tsgolint",
+    "semver",
+    "trigram-utils",
+    "typescript",
+    "vue-eslint-parser"
+  ],
+  "ignoreExportsUsedInFile": {
+    "interface": true,
+    "type": true
+  },
+  "ignoreFindings": ["src/generated/**", "src/vendor/naming-convention/create-test-cases.ts"],
+  "ignorePatterns": ["**/*.d.ts", "**/*.d.*.ts", "lib/**", "test/fixtures/**"],
+  "overrides": [
+    {
+      "files": ["**/*.spec.ts", "test/**"],
+      "rules": {
+        "complexity-crap": "off"
+      }
+    }
+  ]
+}

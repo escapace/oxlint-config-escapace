@@ -1,0 +1,66 @@
+assert_lefthook_installed: true
+colors: false
+source_dir: scripts/
+
+output:
+  - summary
+  - failure
+  - execution
+
+commit-msg:
+  commands:
+    'lint commit message':
+      run: pnpm exec commitlint --edit {1}
+
+pre-commit:
+  skip:
+    - merge
+    - rebase
+
+  commands:
+    fallow:
+      glob: '{package.json,**/package.json,pnpm-lock.yaml}'
+      priority: 1
+      run: pnpm run fallow
+
+    ls-lint:
+      priority: 1
+      run: pnpm run ls-lint
+
+    syncpack:
+      glob: '{package.json,**/package.json,pnpm-lock.yaml}'
+      priority: 2
+      run: pnpm run syncpack
+      stage_fixed: true
+
+    pnpm-install:
+      glob: '{package.json,**/package.json,pnpm-lock.yaml}'
+      priority: 3
+      run: pnpm install
+      stage_fixed: true
+
+    build:
+      priority: 4
+      run: pnpm run build
+      stage_fixed: true
+
+    esclint:
+      exclude:
+        - pnpm-lock.yaml
+        - src/generated/**
+      glob: '*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue,yml,yaml,json,json5,jsonc,toml}'
+      priority: 5
+      run: pnpm exec esclint --fix {staged_files}
+      stage_fixed: true
+
+    oxfmt:
+      exclude:
+        - pnpm-lock.yaml
+      glob: '*.{js,mjs,cjs,ts,mts,cts,yml,yaml,json,md}'
+      priority: 6
+      run: pnpm exec oxfmt --no-error-on-unmatched-pattern {staged_files}
+      stage_fixed: true
+
+    test:
+      priority: 7
+      run: pnpm run test

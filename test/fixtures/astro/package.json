@@ -1,0 +1,9 @@
+{
+  "name": "fixture-astro",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "dependencies": {
+    "astro": "7.4.1"
+  }
+}

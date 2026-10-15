@@ -1,0 +1,7841 @@
+[
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/accessor-pairs",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "accessor-pairs"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/array-callback-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "array-callback-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/arrow-body-style",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "arrow-body-style"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/block-scoped-var",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "block-scoped-var"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/capitalized-comments",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "capitalized-comments"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/class-methods-use-this",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "class-methods-use-this"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/complexity",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "complexity"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/constructor-super",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "constructor-super"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/curly",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "curly"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/default-case",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "default-case"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/default-case-last",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "default-case-last"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/default-param-last",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "default-param-last"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_dangerous_fix",
+    "id": "eslint/eqeqeq",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "eqeqeq"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/for-direction",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "for-direction"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/func-name-matching",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "func-name-matching"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "eslint/func-names",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "func-names"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/func-style",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "func-style"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/getter-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "getter-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/grouped-accessor-pairs",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "grouped-accessor-pairs"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/guard-for-in",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "guard-for-in"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/id-denylist",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "id-denylist"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/id-length",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "id-length"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/id-match",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "id-match"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/init-declarations",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "init-declarations"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/logical-assignment-operators",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "logical-assignment-operators"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-classes-per-file",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-classes-per-file"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-depth",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-depth"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-lines",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-lines"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-lines-per-function",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-lines-per-function"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-nested-callbacks",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-nested-callbacks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-params",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-params"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/max-statements",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "max-statements"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/new-cap",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "new-cap"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-alert",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-alert"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-array-constructor",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-array-constructor"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-async-promise-executor",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-async-promise-executor"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-await-in-loop",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-await-in-loop"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-bitwise",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-bitwise"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-caller",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-caller"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-case-declarations",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-case-declarations"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-class-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-class-assign"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "eslint/no-compare-neg-zero",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-compare-neg-zero"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-cond-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-cond-assign"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "eslint/no-console",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-console"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-const-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-const-assign"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-constant-binary-expression",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-constant-binary-expression"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-constant-condition",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-constant-condition"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-constructor-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-constructor-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-continue",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-continue"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-control-regex",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-control-regex"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-debugger",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-debugger"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-delete-var",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-delete-var"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-div-regex",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-div-regex"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-dupe-class-members",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-dupe-class-members"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-dupe-else-if",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-dupe-else-if"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-dupe-keys",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-dupe-keys"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-duplicate-case",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-duplicate-case"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-duplicate-imports",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-duplicate-imports"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/no-else-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-else-return"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-empty",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-empty"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-empty-character-class",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-empty-character-class"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-empty-function",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-empty-function"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-empty-pattern",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-empty-pattern"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-empty-static-block",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-empty-static-block"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/no-eq-null",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-eq-null"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-eval",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-eval"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-ex-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-ex-assign"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-extend-native",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-extend-native"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-extra-bind",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-extra-bind"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "eslint/no-extra-boolean-cast",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-extra-boolean-cast"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-extra-label",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-extra-label"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-fallthrough",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-fallthrough"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-func-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-func-assign"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-global-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-global-assign"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-implicit-coercion",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-implicit-coercion"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-implicit-globals",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-implicit-globals"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-implied-eval",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-implied-eval"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-import-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-import-assign"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-inline-comments",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-inline-comments"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-inner-declarations",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-inner-declarations"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-invalid-regexp",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-invalid-regexp"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-irregular-whitespace",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-irregular-whitespace"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-iterator",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-iterator"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-label-var",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-label-var"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-labels",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-labels"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-lone-blocks",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-lone-blocks"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-lonely-if",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-lonely-if"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-loop-func",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-loop-func"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-loss-of-precision",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-loss-of-precision"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-magic-numbers",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-magic-numbers"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-misleading-character-class",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-misleading-character-class"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-multi-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-multi-assign"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-multi-str",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-multi-str"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-negated-condition",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-negated-condition"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-nested-ternary",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-nested-ternary"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-new",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-new"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-new-func",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-new-func"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-new-native-nonconstructor",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-new-native-nonconstructor"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-new-wrappers",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-new-wrappers"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-nonoctal-decimal-escape",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-nonoctal-decimal-escape"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-obj-calls",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-obj-calls"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-object-constructor",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-object-constructor"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-param-reassign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-param-reassign"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "eslint/no-plusplus",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-plusplus"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-promise-executor-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-promise-executor-return"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-proto",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-proto"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-prototype-builtins",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-prototype-builtins"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-redeclare",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-redeclare"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/no-regex-spaces",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-regex-spaces"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-restricted-exports",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-restricted-exports"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-restricted-globals",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-restricted-globals"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-restricted-imports",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-restricted-imports"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-restricted-properties",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-restricted-properties"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-return-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-return-assign"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-script-url",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-script-url"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-self-assign",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-self-assign"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-self-compare",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-self-compare"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-sequences",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-sequences"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-setter-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-setter-return"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-shadow",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-shadow"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-shadow-restricted-names",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-shadow-restricted-names"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-sparse-arrays",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-sparse-arrays"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-template-curly-in-string",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-template-curly-in-string"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-ternary",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-ternary"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-this-before-super",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-this-before-super"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "eslint/no-throw-literal",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-throw-literal"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-unassigned-vars",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unassigned-vars"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-undef",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-undef"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-undefined",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-undefined"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-underscore-dangle",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-underscore-dangle"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/no-unexpected-multiline",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unexpected-multiline"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-unmodified-loop-condition",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unmodified-loop-condition"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/no-unneeded-ternary",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unneeded-ternary"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-unreachable",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unreachable"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-unreachable-loop",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unreachable-loop"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-unsafe-finally",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unsafe-finally"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "eslint/no-unsafe-negation",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unsafe-negation"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-unsafe-optional-chaining",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unsafe-optional-chaining"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-unused-expressions",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unused-expressions"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "eslint/no-unused-labels",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unused-labels"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "pending",
+    "id": "eslint/no-unused-private-class-members",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unused-private-class-members"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_dangerous_fix_or_suggestion",
+    "id": "eslint/no-unused-vars",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-unused-vars"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-use-before-define",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-use-before-define"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-useless-assignment",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-assignment"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-useless-backreference",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-backreference"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-useless-call",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-call"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-useless-catch",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-catch"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/no-useless-computed-key",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-computed-key"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-useless-concat",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-concat"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-useless-constructor",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-constructor"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "eslint/no-useless-escape",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-escape"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "eslint/no-useless-rename",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-rename"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/no-useless-return",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-useless-return"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/no-var",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-var"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "eslint/no-void",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-void"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/no-warning-comments",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-warning-comments"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/no-with",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "no-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/object-shorthand",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "object-shorthand"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/one-var",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "one-var"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/operator-assignment",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "operator-assignment"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/prefer-arrow-callback",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-arrow-callback"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/prefer-const",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-const"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/prefer-destructuring",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-destructuring"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/prefer-exponentiation-operator",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-exponentiation-operator"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/prefer-named-capture-group",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-named-capture-group"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/prefer-numeric-literals",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-numeric-literals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/prefer-object-has-own",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-object-has-own"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/prefer-object-spread",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-object-spread"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/prefer-promise-reject-errors",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-promise-reject-errors"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/prefer-regex-literals",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-regex-literals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/prefer-rest-params",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-rest-params"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/prefer-spread",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-spread"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/prefer-template",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "prefer-template"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/preserve-caught-error",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "preserve-caught-error"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_dangerous_fix",
+    "id": "eslint/radix",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "radix"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "eslint/require-await",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "require-await"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "eslint/require-unicode-regexp",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "require-unicode-regexp"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "eslint/require-yield",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "require-yield"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/sort-imports",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "sort-imports"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/sort-keys",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "sort-keys"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "eslint/sort-vars",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "sort-vars"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/symbol-description",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "symbol-description"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/unicode-bom",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "unicode-bom"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "eslint/use-isnan",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "use-isnan"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "eslint/valid-typeof",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "valid-typeof"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "eslint/vars-on-top",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "vars-on-top"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "eslint/yoda",
+    "scope": "eslint",
+    "typeAware": false,
+    "value": "yoda"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "import/consistent-type-specifier-style",
+    "scope": "import",
+    "typeAware": false,
+    "value": "consistent-type-specifier-style"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "import/default",
+    "scope": "import",
+    "typeAware": false,
+    "value": "default"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "import/export",
+    "scope": "import",
+    "typeAware": false,
+    "value": "export"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/exports-last",
+    "scope": "import",
+    "typeAware": false,
+    "value": "exports-last"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/extensions",
+    "scope": "import",
+    "typeAware": false,
+    "value": "extensions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "import/first",
+    "scope": "import",
+    "typeAware": false,
+    "value": "first"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/group-exports",
+    "scope": "import",
+    "typeAware": false,
+    "value": "group-exports"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "import/max-dependencies",
+    "scope": "import",
+    "typeAware": false,
+    "value": "max-dependencies"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "import/named",
+    "scope": "import",
+    "typeAware": false,
+    "value": "named"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "import/namespace",
+    "scope": "import",
+    "typeAware": false,
+    "value": "namespace"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "import/newline-after-import",
+    "scope": "import",
+    "typeAware": false,
+    "value": "newline-after-import"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "import/no-absolute-path",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-absolute-path"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-amd",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-amd"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-anonymous-default-export",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-anonymous-default-export"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-commonjs",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-commonjs"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-cycle",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-cycle"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-default-export",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-default-export"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "import/no-duplicates",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-duplicates"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-dynamic-require",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-dynamic-require"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "import/no-empty-named-blocks",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-empty-named-blocks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-mutable-exports",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-mutable-exports"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-named-as-default",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-named-as-default"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-named-as-default-member",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-named-as-default-member"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-named-default",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-named-default"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-named-export",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-named-export"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "import/no-namespace",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-namespace"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-nodejs-modules",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-nodejs-modules"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-relative-parent-imports",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-relative-parent-imports"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-self-import",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-self-import"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-unassigned-import",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-unassigned-import"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/no-webpack-loader-syntax",
+    "scope": "import",
+    "typeAware": false,
+    "value": "no-webpack-loader-syntax"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "import/prefer-default-export",
+    "scope": "import",
+    "typeAware": false,
+    "value": "prefer-default-export"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "import/unambiguous",
+    "scope": "import",
+    "typeAware": false,
+    "value": "unambiguous"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/consistent-test-it",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "consistent-test-it"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/expect-expect",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "expect-expect"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/max-expects",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "max-expects"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/max-nested-describe",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "max-nested-describe"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/no-alias-methods",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-alias-methods"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-commented-out-tests",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-commented-out-tests"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-conditional-expect",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-conditional-expect"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-conditional-in-test",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-conditional-in-test"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-confusing-set-timeout",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-confusing-set-timeout"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/no-deprecated-functions",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-deprecated-functions"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-disabled-tests",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-disabled-tests"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "jest/no-done-callback",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-done-callback"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-duplicate-hooks",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-duplicate-hooks"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-export",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-export"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/no-focused-tests",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-focused-tests"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-hooks",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-hooks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-identical-title",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-identical-title"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-interpolation-in-snapshots",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-interpolation-in-snapshots"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jest/no-jasmine-globals",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-jasmine-globals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-large-snapshots",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-large-snapshots"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-mocks-import",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-mocks-import"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-restricted-jest-methods",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-restricted-jest-methods"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-restricted-matchers",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-restricted-matchers"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-standalone-expect",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-standalone-expect"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/no-test-prefixes",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-test-prefixes"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/no-test-return-statement",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-test-return-statement"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/no-unneeded-async-expect-function",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-unneeded-async-expect-function"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jest/no-untyped-mock-factory",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "no-untyped-mock-factory"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/padding-around-after-all-blocks",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "padding-around-after-all-blocks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/padding-around-test-blocks",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "padding-around-test-blocks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-called-with",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-called-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-comparison-matcher",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-comparison-matcher"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/prefer-each",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-each"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/prefer-ending-with-an-expect",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-ending-with-an-expect"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/prefer-equality-matcher",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-equality-matcher"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/prefer-expect-assertions",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-expect-assertions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-expect-resolves",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-expect-resolves"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/prefer-hooks-in-order",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-hooks-in-order"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/prefer-hooks-on-top",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-hooks-on-top"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-importing-jest-globals",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-importing-jest-globals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jest/prefer-jest-mocked",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-jest-mocked"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-lowercase-title",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-lowercase-title"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jest/prefer-mock-promise-shorthand",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-mock-promise-shorthand"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-mock-return-shorthand",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-mock-return-shorthand"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/prefer-snapshot-hint",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-snapshot-hint"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/prefer-spy-on",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-spy-on"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/prefer-strict-equal",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-strict-equal"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-to-be",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-to-be"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-to-contain",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-to-contain"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-to-have-been-called",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-to-have-been-called"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-to-have-been-called-times",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-to-have-been-called-times"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-to-have-length",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-to-have-length"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jest/prefer-todo",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "prefer-todo"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/require-hook",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "require-hook"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/require-to-throw-message",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "require-to-throw-message"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jest/require-top-level-describe",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "require-top-level-describe"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/valid-describe-callback",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "valid-describe-callback"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jest/valid-expect",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "valid-expect"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jest/valid-expect-in-promise",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "valid-expect-in-promise"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jest/valid-title",
+    "scope": "jest",
+    "typeAware": false,
+    "value": "valid-title"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/check-access",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "check-access"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/check-property-names",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "check-property-names"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/check-tag-names",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "check-tag-names"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/empty-tags",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "empty-tags"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/implements-on-classes",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "implements-on-classes"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jsdoc/no-blank-blocks",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "no-blank-blocks"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/no-defaults",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "no-defaults"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/require-param",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-param"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/require-param-description",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-param-description"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-param-name",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-param-name"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jsdoc/require-param-type",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-param-type"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/require-property",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-property"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-property-description",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-property-description"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-property-name",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-property-name"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-property-type",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-property-type"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "jsdoc/require-returns",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-returns"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-returns-description",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-returns-description"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-returns-type",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-returns-type"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-throws-description",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-throws-description"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-throws-type",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-throws-type"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-yields",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-yields"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-yields-description",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-yields-description"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "jsdoc/require-yields-type",
+    "scope": "jsdoc",
+    "typeAware": false,
+    "value": "require-yields-type"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/alt-text",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "alt-text"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/anchor-ambiguous-text",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "anchor-ambiguous-text"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "jsx_a11y/anchor-has-content",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "anchor-has-content"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/anchor-is-valid",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "anchor-is-valid"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/aria-activedescendant-has-tabindex",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "aria-activedescendant-has-tabindex"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "jsx_a11y/aria-props",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "aria-props"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/aria-proptypes",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "aria-proptypes"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/aria-role",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "aria-role"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jsx_a11y/aria-unsupported-elements",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "aria-unsupported-elements"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/autocomplete-valid",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "autocomplete-valid"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/click-events-have-key-events",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "click-events-have-key-events"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/control-has-associated-label",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "control-has-associated-label"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/heading-has-content",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "heading-has-content"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/html-has-lang",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "html-has-lang"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/iframe-has-title",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "iframe-has-title"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/img-redundant-alt",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "img-redundant-alt"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jsx_a11y/interactive-supports-focus",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "interactive-supports-focus"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/label-has-associated-control",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "label-has-associated-control"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/lang",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "lang"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/media-has-caption",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "media-has-caption"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/mouse-events-have-key-events",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "mouse-events-have-key-events"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jsx_a11y/no-access-key",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-access-key"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jsx_a11y/no-aria-hidden-on-focusable",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-aria-hidden-on-focusable"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "jsx_a11y/no-autofocus",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-autofocus"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-distracting-elements",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-distracting-elements"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-interactive-element-to-noninteractive-role",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-interactive-element-to-noninteractive-role"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-noninteractive-element-interactions",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-noninteractive-element-interactions"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-noninteractive-element-to-interactive-role",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-noninteractive-element-to-interactive-role"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-noninteractive-tabindex",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-noninteractive-tabindex"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jsx_a11y/no-redundant-roles",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-redundant-roles"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/no-static-element-interactions",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "no-static-element-interactions"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/prefer-tag-over-role",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "prefer-tag-over-role"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/role-has-required-aria-props",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "role-has-required-aria-props"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "jsx_a11y/role-supports-aria-props",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "role-supports-aria-props"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "jsx_a11y/scope",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "scope"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_dangerous_suggestion",
+    "id": "jsx_a11y/tabindex-no-positive",
+    "scope": "jsx_a11y",
+    "typeAware": false,
+    "value": "tabindex-no-positive"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/google-font-display",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "google-font-display"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/google-font-preconnect",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "google-font-preconnect"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/inline-script-id",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "inline-script-id"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/next-script-for-ga",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "next-script-for-ga"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-assign-module-variable",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-assign-module-variable"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-async-client-component",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-async-client-component"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-before-interactive-script-outside-document",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-before-interactive-script-outside-document"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-css-tags",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-css-tags"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-document-import-in-page",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-document-import-in-page"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-duplicate-head",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-duplicate-head"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-head-element",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-head-element"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-head-import-in-document",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-head-import-in-document"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-html-link-for-pages",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-html-link-for-pages"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "nextjs/no-img-element",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-img-element"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-page-custom-font",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-page-custom-font"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-script-component-in-head",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-script-component-in-head"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-styled-jsx-in-document",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-styled-jsx-in-document"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-sync-scripts",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-sync-scripts"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-title-in-document-head",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-title-in-document-head"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "nextjs/no-typos",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-typos"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "nextjs/no-unwanted-polyfillio",
+    "scope": "nextjs",
+    "typeAware": false,
+    "value": "no-unwanted-polyfillio"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "node/callback-return",
+    "scope": "node",
+    "typeAware": false,
+    "value": "callback-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "node/exports-style",
+    "scope": "node",
+    "typeAware": false,
+    "value": "exports-style"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "node/global-require",
+    "scope": "node",
+    "typeAware": false,
+    "value": "global-require"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "node/handle-callback-err",
+    "scope": "node",
+    "typeAware": false,
+    "value": "handle-callback-err"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "node/no-exports-assign",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-exports-assign"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-mixed-requires",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-mixed-requires"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-new-require",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-new-require"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-path-concat",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-path-concat"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-process-env",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-process-env"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-sync",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-sync"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "node/no-top-level-await",
+    "scope": "node",
+    "typeAware": false,
+    "value": "no-top-level-await"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "oxc/approx-constant",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "approx-constant"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-array-method-on-arguments",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-array-method-on-arguments"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "oxc/bad-bitwise-operator",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-bitwise-operator"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-char-at-comparison",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-char-at-comparison"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-comparison-sequence",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-comparison-sequence"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-match-all-arg",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-match-all-arg"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-min-max-func",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-min-max-func"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-object-literal-comparison",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-object-literal-comparison"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/bad-replace-all-arg",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "bad-replace-all-arg"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "oxc/branches-sharing-code",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "branches-sharing-code"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/const-comparisons",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "const-comparisons"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "oxc/double-comparisons",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "double-comparisons"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_dangerous_fix",
+    "id": "oxc/erasing-op",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "erasing-op"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "oxc/misrefactored-assign-op",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "misrefactored-assign-op"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "oxc/missing-throw",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "missing-throw"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-accumulating-spread",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-accumulating-spread"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-async-await",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-async-await"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-async-endpoint-handlers",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-async-endpoint-handlers"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-barrel-file",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-barrel-file"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "oxc/no-const-enum",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-const-enum"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "oxc/no-map-spread",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-map-spread"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-optional-chaining",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-optional-chaining"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-rest-spread-properties",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-rest-spread-properties"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "oxc/no-this-in-exported-function",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "no-this-in-exported-function"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/number-arg-out-of-range",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "number-arg-out-of-range"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_dangerous_fix",
+    "id": "oxc/only-used-in-recursion",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "only-used-in-recursion"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "oxc/uninvoked-array-callback",
+    "scope": "oxc",
+    "typeAware": false,
+    "value": "uninvoked-array-callback"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "promise/always-return",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "always-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "promise/avoid-new",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "avoid-new"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "promise/catch-or-return",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "catch-or-return"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "promise/no-callback-in-promise",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-callback-in-promise"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "promise/no-multiple-resolved",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-multiple-resolved"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "promise/no-nesting",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-nesting"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "promise/no-new-statics",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-new-statics"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "promise/no-promise-in-callback",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-promise-in-callback"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "promise/no-return-in-finally",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-return-in-finally"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "promise/no-return-wrap",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "no-return-wrap"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "promise/param-names",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "param-names"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "promise/prefer-await-to-callbacks",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "prefer-await-to-callbacks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "promise/prefer-await-to-then",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "prefer-await-to-then"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "promise/prefer-catch",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "prefer-catch"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "promise/spec-only",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "spec-only"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "promise/valid-params",
+    "scope": "promise",
+    "typeAware": false,
+    "value": "valid-params"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react_perf/jsx-no-jsx-as-prop",
+    "scope": "react_perf",
+    "typeAware": false,
+    "value": "jsx-no-jsx-as-prop"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react_perf/jsx-no-new-array-as-prop",
+    "scope": "react_perf",
+    "typeAware": false,
+    "value": "jsx-no-new-array-as-prop"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react_perf/jsx-no-new-function-as-prop",
+    "scope": "react_perf",
+    "typeAware": false,
+    "value": "jsx-no-new-function-as-prop"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react_perf/jsx-no-new-object-as-prop",
+    "scope": "react_perf",
+    "typeAware": false,
+    "value": "jsx-no-new-object-as-prop"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/button-has-type",
+    "scope": "react",
+    "typeAware": false,
+    "value": "button-has-type"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/capitalized-calls",
+    "scope": "react",
+    "typeAware": false,
+    "value": "capitalized-calls"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "react/checked-requires-onchange-or-readonly",
+    "scope": "react",
+    "typeAware": false,
+    "value": "checked-requires-onchange-or-readonly"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "react/display-name",
+    "scope": "react",
+    "typeAware": false,
+    "value": "display-name"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/error-boundaries",
+    "scope": "react",
+    "typeAware": false,
+    "value": "error-boundaries"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_dangerous_fix_or_suggestion",
+    "id": "react/exhaustive-deps",
+    "scope": "react",
+    "typeAware": false,
+    "value": "exhaustive-deps"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/exhaustive-effect-dependencies",
+    "scope": "react",
+    "typeAware": false,
+    "value": "exhaustive-effect-dependencies"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/forbid-component-props",
+    "scope": "react",
+    "typeAware": false,
+    "value": "forbid-component-props"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/forbid-dom-props",
+    "scope": "react",
+    "typeAware": false,
+    "value": "forbid-dom-props"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/forbid-elements",
+    "scope": "react",
+    "typeAware": false,
+    "value": "forbid-elements"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "react/forward-ref-uses-ref",
+    "scope": "react",
+    "typeAware": false,
+    "value": "forward-ref-uses-ref"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "react/function-component-definition",
+    "scope": "react",
+    "typeAware": false,
+    "value": "function-component-definition"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/globals",
+    "scope": "react",
+    "typeAware": false,
+    "value": "globals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "react/hook-use-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "hook-use-state"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/hooks",
+    "scope": "react",
+    "typeAware": false,
+    "value": "hooks"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "react/iframe-missing-sandbox",
+    "scope": "react",
+    "typeAware": false,
+    "value": "iframe-missing-sandbox"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/immutability",
+    "scope": "react",
+    "typeAware": false,
+    "value": "immutability"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/incompatible-library",
+    "scope": "react",
+    "typeAware": false,
+    "value": "incompatible-library"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/invariant",
+    "scope": "react",
+    "typeAware": false,
+    "value": "invariant"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "react/jsx-boolean-value",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-boolean-value"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "react/jsx-curly-brace-presence",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-curly-brace-presence"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "react/jsx-filename-extension",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-filename-extension"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "react/jsx-fragments",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-fragments"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-handler-names",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-handler-names"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-key",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-key"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-max-depth",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-max-depth"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-no-comment-textnodes",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-comment-textnodes"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-no-constructed-context-values",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-constructed-context-values"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-no-duplicate-props",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-duplicate-props"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-no-literals",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-literals"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "react/jsx-no-script-url",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-script-url"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "react/jsx-no-target-blank",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-target-blank"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-no-undef",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-undef"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "react/jsx-no-useless-fragment",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-no-useless-fragment"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-pascal-case",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-pascal-case"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "react/jsx-props-no-spread-multi",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-props-no-spread-multi"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/jsx-props-no-spreading",
+    "scope": "react",
+    "typeAware": false,
+    "value": "jsx-props-no-spreading"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/memo-dependencies",
+    "scope": "react",
+    "typeAware": false,
+    "value": "memo-dependencies"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-array-index-key",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-array-index-key"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-children-prop",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-children-prop"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-clone-element",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-clone-element"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-danger",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-danger"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-danger-with-children",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-danger-with-children"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-deriving-state-in-effects",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-deriving-state-in-effects"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-did-mount-set-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-did-mount-set-state"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-did-update-set-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-did-update-set-state"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-direct-mutation-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-direct-mutation-state"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-find-dom-node",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-find-dom-node"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-is-mounted",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-is-mounted"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-multi-comp",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-multi-comp"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-namespace",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-namespace"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-object-type-as-default-prop",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-object-type-as-default-prop"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-react-children",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-react-children"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-redundant-should-component-update",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-redundant-should-component-update"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-render-return-value",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-render-return-value"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-set-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-set-state"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-string-refs",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-string-refs"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-this-in-sfc",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-this-in-sfc"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "react/no-unescaped-entities",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-unescaped-entities"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "react/no-unknown-property",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-unknown-property"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-unsafe",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-unsafe"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-unstable-nested-components",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-unstable-nested-components"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/no-will-update-set-state",
+    "scope": "react",
+    "typeAware": false,
+    "value": "no-will-update-set-state"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/only-export-components",
+    "scope": "react",
+    "typeAware": false,
+    "value": "only-export-components"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/prefer-es6-class",
+    "scope": "react",
+    "typeAware": false,
+    "value": "prefer-es6-class"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/prefer-function-component",
+    "scope": "react",
+    "typeAware": false,
+    "value": "prefer-function-component"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/preserve-manual-memoization",
+    "scope": "react",
+    "typeAware": false,
+    "value": "preserve-manual-memoization"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/purity",
+    "scope": "react",
+    "typeAware": false,
+    "value": "purity"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/react-in-jsx-scope",
+    "scope": "react",
+    "typeAware": false,
+    "value": "react-in-jsx-scope"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/refs",
+    "scope": "react",
+    "typeAware": false,
+    "value": "refs"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "none",
+    "id": "react/require-render-return",
+    "scope": "react",
+    "typeAware": false,
+    "value": "require-render-return"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/rule-suppression",
+    "scope": "react",
+    "typeAware": false,
+    "value": "rule-suppression"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "react/rules-of-hooks",
+    "scope": "react",
+    "typeAware": false,
+    "value": "rules-of-hooks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "react/self-closing-comp",
+    "scope": "react",
+    "typeAware": false,
+    "value": "self-closing-comp"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/set-state-in-effect",
+    "scope": "react",
+    "typeAware": false,
+    "value": "set-state-in-effect"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/set-state-in-render",
+    "scope": "react",
+    "typeAware": false,
+    "value": "set-state-in-render"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "react/state-in-constructor",
+    "scope": "react",
+    "typeAware": false,
+    "value": "state-in-constructor"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/static-components",
+    "scope": "react",
+    "typeAware": false,
+    "value": "static-components"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "react/style-prop-object",
+    "scope": "react",
+    "typeAware": false,
+    "value": "style-prop-object"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/syntax",
+    "scope": "react",
+    "typeAware": false,
+    "value": "syntax"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/todo",
+    "scope": "react",
+    "typeAware": false,
+    "value": "todo"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "react/unsupported-syntax",
+    "scope": "react",
+    "typeAware": false,
+    "value": "unsupported-syntax"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/use-memo",
+    "scope": "react",
+    "typeAware": false,
+    "value": "use-memo"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/void-dom-elements-no-children",
+    "scope": "react",
+    "typeAware": false,
+    "value": "void-dom-elements-no-children"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "react/void-use-memo",
+    "scope": "react",
+    "typeAware": false,
+    "value": "void-use-memo"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/adjacent-overload-signatures",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "adjacent-overload-signatures"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/array-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "array-type"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/await-thenable",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "await-thenable"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/ban-ts-comment",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "ban-ts-comment"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/ban-tslint-comment",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "ban-tslint-comment"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/ban-types",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "ban-types"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "typescript/class-literal-property-style",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "class-literal-property-style"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/consistent-generic-constructors",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "consistent-generic-constructors"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/consistent-indexed-object-style",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "consistent-indexed-object-style"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/consistent-return",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "consistent-return"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "typescript/consistent-type-assertions",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "consistent-type-assertions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_dangerous_fix",
+    "id": "typescript/consistent-type-definitions",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "consistent-type-definitions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/consistent-type-exports",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "consistent-type-exports"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/consistent-type-imports",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "consistent-type-imports"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/dot-notation",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "dot-notation"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/explicit-function-return-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "explicit-function-return-type"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "typescript/explicit-member-accessibility",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "explicit-member-accessibility"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/explicit-module-boundary-types",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "explicit-module-boundary-types"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/method-signature-style",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "method-signature-style"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-array-delete",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-array-delete"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-base-to-string",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-base-to-string"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-confusing-non-null-assertion",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-confusing-non-null-assertion"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "typescript/no-confusing-void-expression",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-confusing-void-expression"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-deprecated",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-deprecated"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-duplicate-enum-values",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-duplicate-enum-values"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "typescript/no-duplicate-type-constituents",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-duplicate-type-constituents"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-dynamic-delete",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-dynamic-delete"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/no-empty-interface",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-empty-interface"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "typescript/no-empty-object-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-empty-object-type"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/no-explicit-any",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-explicit-any"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "typescript/no-extra-non-null-assertion",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-extra-non-null-assertion"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_dangerous_suggestion",
+    "id": "typescript/no-extraneous-class",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-extraneous-class"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-floating-promises",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-floating-promises"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-for-in-array",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-for-in-array"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-generated-empty-object-type",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-generated-empty-object-type"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-implied-eval",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-implied-eval"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/no-import-type-side-effects",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-import-type-side-effects"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-inferrable-types",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-inferrable-types"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-invalid-void-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-invalid-void-type"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "typescript/no-meaningless-void-operator",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-meaningless-void-operator"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-misused-new",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-misused-new"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-misused-promises",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-misused-promises"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-misused-spread",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-misused-spread"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-mixed-enums",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-mixed-enums"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-namespace",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-namespace"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-non-null-asserted-nullish-coalescing",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-non-null-asserted-nullish-coalescing"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-non-null-asserted-optional-chain",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-non-null-asserted-optional-chain"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/no-non-null-assertion",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-non-null-assertion"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-redundant-type-constituents",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-redundant-type-constituents"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/no-require-imports",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-require-imports"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "typescript/no-restricted-types",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-restricted-types"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-this-alias",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-this-alias"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/no-unnecessary-boolean-literal-compare",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-boolean-literal-compare"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/no-unnecessary-condition",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-condition"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-unnecessary-parameter-property-assignment",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-unnecessary-parameter-property-assignment"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unnecessary-qualifier",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-qualifier"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/no-unnecessary-template-expression",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-template-expression"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/no-unnecessary-type-arguments",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-type-arguments"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/no-unnecessary-type-assertion",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-type-assertion"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-unnecessary-type-constraint",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-unnecessary-type-constraint"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-unnecessary-type-conversion",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-type-conversion"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-unnecessary-type-parameters",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unnecessary-type-parameters"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-argument",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-argument"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-assignment",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-assignment"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-call",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-call"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-unsafe-declaration-merging",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-unsafe-declaration-merging"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/no-unsafe-enum-comparison",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-enum-comparison"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-function-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-unsafe-function-type"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-member-access",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-member-access"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-return",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-return"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-type-assertion",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-type-assertion"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-unsafe-unary-minus",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-unary-minus"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/no-useless-default-assignment",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-useless-default-assignment"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "typescript/no-useless-empty-export",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-useless-empty-export"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-var-requires",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-var-requires"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "typescript/no-wrapper-object-types",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "no-wrapper-object-types"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/non-nullable-type-assertion-style",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "non-nullable-type-assertion-style"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/only-throw-error",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "only-throw-error"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/parameter-properties",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "parameter-properties"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "typescript/prefer-as-const",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-as-const"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/prefer-enum-initializers",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-enum-initializers"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/prefer-find",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-find"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/prefer-for-of",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-for-of"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/prefer-function-type",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-function-type"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-includes",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-includes"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-literal-enum-member",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-literal-enum-member"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-namespace-keyword",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-namespace-keyword"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-nullish-coalescing",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-nullish-coalescing"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "fixable_dangerous_fix_or_suggestion",
+    "id": "typescript/prefer-optional-chain",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-optional-chain"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-promise-reject-errors",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-promise-reject-errors"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-readonly",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-readonly"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-readonly-parameter-types",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-readonly-parameter-types"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-reduce-type-parameter",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-reduce-type-parameter"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-regexp-exec",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-regexp-exec"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-return-this-type",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-return-this-type"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/prefer-string-starts-ends-with",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "prefer-string-starts-ends-with"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "typescript/prefer-ts-expect-error",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "prefer-ts-expect-error"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "typescript/promise-function-async",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "promise-function-async"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/related-getter-setter-pairs",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "related-getter-setter-pairs"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/require-array-sort-compare",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "require-array-sort-compare"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/require-await",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "require-await"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/restrict-plus-operands",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "restrict-plus-operands"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/restrict-template-expressions",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "restrict-template-expressions"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "typescript/return-await",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "return-await"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "typescript/strict-boolean-expressions",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "strict-boolean-expressions"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/strict-void-return",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "strict-void-return"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "typescript/switch-exhaustiveness-check",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "switch-exhaustiveness-check"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/triple-slash-reference",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "triple-slash-reference"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "typescript/unbound-method",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "unbound-method"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/unified-signatures",
+    "scope": "typescript",
+    "typeAware": false,
+    "value": "unified-signatures"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "typescript/use-unknown-in-catch-callback-variable",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "use-unknown-in-catch-callback-variable"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/catch-error-name",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "catch-error-name"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/consistent-assert",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-assert"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/consistent-date-clone",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-date-clone"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/consistent-empty-array-spread",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-empty-array-spread"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/consistent-existence-index-check",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-existence-index-check"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/consistent-function-scoping",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-function-scoping"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/consistent-template-literal-escape",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "consistent-template-literal-escape"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/custom-error-definition",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "custom-error-definition"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/empty-brace-spaces",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "empty-brace-spaces"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/error-message",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "error-message"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/escape-case",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "escape-case"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/explicit-length-check",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "explicit-length-check"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/explicit-timer-delay",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "explicit-timer-delay"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/filename-case",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "filename-case"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/import-style",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "import-style"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/max-nested-calls",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "max-nested-calls"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/new-for-builtins",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "new-for-builtins"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-abusive-eslint-disable",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-abusive-eslint-disable"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-accessor-recursion",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-accessor-recursion"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-anonymous-default-export",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-anonymous-default-export"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-array-callback-reference",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-callback-reference"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-array-fill-with-reference-type",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-fill-with-reference-type"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-array-for-each",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-for-each"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-array-method-this-argument",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-method-this-argument"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-array-reduce",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-reduce"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-array-reverse",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-reverse"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-array-sort",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-array-sort"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/no-await-expression-member",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-await-expression-member"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-await-in-promise-methods",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-await-in-promise-methods"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-confusing-array-with",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-confusing-array-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-console-spaces",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-console-spaces"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-document-cookie",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-document-cookie"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "unicorn/no-empty-file",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-empty-file"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-hex-escape",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-hex-escape"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-immediate-mutation",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-immediate-mutation"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-instanceof-array",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-instanceof-array"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "unicorn/no-instanceof-builtins",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-instanceof-builtins"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "unicorn/no-invalid-fetch-options",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-invalid-fetch-options"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "unicorn/no-invalid-remove-event-listener",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-invalid-remove-event-listener"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-length-as-slice-end",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-length-as-slice-end"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-lonely-if",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-lonely-if"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-magic-array-flat-depth",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-magic-array-flat-depth"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-negated-condition",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-negated-condition"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-negation-in-equality-check",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-negation-in-equality-check"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/no-nested-ternary",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-nested-ternary"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_dangerous_suggestion",
+    "id": "unicorn/no-new-array",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-new-array"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-new-buffer",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-new-buffer"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_dangerous_fix",
+    "id": "unicorn/no-null",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-null"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-object-as-default-parameter",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-object-as-default-parameter"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-process-exit",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-process-exit"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "unicorn/no-single-promise-in-promise-methods",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-single-promise-in-promise-methods"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/no-static-only-class",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-static-only-class"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "none",
+    "id": "unicorn/no-thenable",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-thenable"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/no-this-assignment",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-this-assignment"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "unicorn/no-typeof-undefined",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-typeof-undefined"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-unnecessary-array-flat-depth",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unnecessary-array-flat-depth"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-unnecessary-array-splice-count",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unnecessary-array-splice-count"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "unicorn/no-unnecessary-await",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unnecessary-await"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-unnecessary-slice-end",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unnecessary-slice-end"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/no-unreadable-array-destructuring",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unreadable-array-destructuring"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_suggestion",
+    "id": "unicorn/no-unreadable-iife",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-unreadable-iife"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-useless-collection-argument",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-collection-argument"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-useless-error-capture-stack-trace",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-error-capture-stack-trace"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "conditional_fix",
+    "id": "unicorn/no-useless-fallback-in-spread",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-fallback-in-spread"
+  },
+  {
+    "category": "nursery",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "unicorn/no-useless-iterator-to-array",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-iterator-to-array"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "pending",
+    "id": "unicorn/no-useless-length-check",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-length-check"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-useless-promise-resolve-reject",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-promise-resolve-reject"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/no-useless-spread",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-spread"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/no-useless-switch-case",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-switch-case"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-useless-undefined",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-useless-undefined"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/no-zero-fractions",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "no-zero-fractions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/number-literal-case",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "number-literal-case"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/numeric-separators-style",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "numeric-separators-style"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-add-event-listener",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-add-event-listener"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-array-find",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-array-find"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_dangerous_fix",
+    "id": "unicorn/prefer-array-flat",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-array-flat"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "unicorn/prefer-array-flat-map",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-array-flat-map"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-array-index-of",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-array-index-of"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-array-some",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-array-some"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_dangerous_fix_or_suggestion",
+    "id": "unicorn/prefer-at",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-at"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-bigint-literals",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-bigint-literals"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-blob-reading-methods",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-blob-reading-methods"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_safe_fix_or_suggestion",
+    "id": "unicorn/prefer-class-fields",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-class-fields"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-classlist-toggle",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-classlist-toggle"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/prefer-code-point",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-code-point"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-date-now",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-date-now"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-default-parameters",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-default-parameters"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-dom-node-append",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-dom-node-append"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/prefer-dom-node-dataset",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-dom-node-dataset"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-dom-node-remove",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-dom-node-remove"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/prefer-dom-node-text-content",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-dom-node-text-content"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "unicorn/prefer-event-target",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-event-target"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-export-from",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-export-from"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-global-this",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-global-this"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-import-meta-properties",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-import-meta-properties"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-includes",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-includes"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-keyboard-event-key",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-keyboard-event-key"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-logical-operator-over-ternary",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-logical-operator-over-ternary"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-math-min-max",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-math-min-max"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-math-trunc",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-math-trunc"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-modern-dom-apis",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-modern-dom-apis"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-modern-math-apis",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-modern-math-apis"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-module",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-module"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-native-coercion-functions",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-native-coercion-functions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-negative-index",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-negative-index"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-node-protocol",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-node-protocol"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-number-coercion",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-number-coercion"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/prefer-number-properties",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-number-properties"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-object-from-entries",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-object-from-entries"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-optional-catch-binding",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-optional-catch-binding"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-prototype-methods",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-prototype-methods"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/prefer-query-selector",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-query-selector"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-reflect-apply",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-reflect-apply"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-regexp-test",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-regexp-test"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-response-static-json",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-response-static-json"
+  },
+  {
+    "category": "perf",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "unicorn/prefer-set-has",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-set-has"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-set-size",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-set-size"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-single-call",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-single-call"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/prefer-spread",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-spread"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-string-raw",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-string-raw"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-string-replace-all",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-string-replace-all"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/prefer-string-slice",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-string-slice"
+  },
+  {
+    "category": "correctness",
+    "default": true,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-string-starts-ends-with",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-string-starts-ends-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-string-trim-start-end",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-string-trim-start-end"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/prefer-structured-clone",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-structured-clone"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-ternary",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-ternary"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/prefer-top-level-await",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-top-level-await"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/prefer-type-error",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "prefer-type-error"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_safe_fix_or_suggestion",
+    "id": "unicorn/relative-url-style",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "relative-url-style"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "unicorn/require-array-join-separator",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "require-array-join-separator"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/require-module-attributes",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "require-module-attributes"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/require-module-specifiers",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "require-module-specifiers"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/require-number-to-fixed-digits-argument",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "require-number-to-fixed-digits-argument"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "unicorn/require-post-message-target-origin",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "require-post-message-target-origin"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/switch-case-braces",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "switch-case-braces"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "unicorn/switch-case-break-position",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "switch-case-break-position"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/text-encoding-identifier-case",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "text-encoding-identifier-case"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "unicorn/throw-new-error",
+    "scope": "unicorn",
+    "typeAware": false,
+    "value": "throw-new-error"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/consistent-each-for",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "consistent-each-for"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/consistent-test-filename",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "consistent-test-filename"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/consistent-test-it",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "consistent-test-it"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/consistent-vitest-vi",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "consistent-vitest-vi"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/expect-expect",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "expect-expect"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/hoisted-apis-on-top",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "hoisted-apis-on-top"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/max-expects",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "max-expects"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/max-nested-describe",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "max-nested-describe"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/no-alias-methods",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-alias-methods"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-commented-out-tests",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-commented-out-tests"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-conditional-expect",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-conditional-expect"
+  },
+  {
+    "category": "pedantic",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-conditional-in-test",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-conditional-in-test"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-conditional-tests",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-conditional-tests"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-disabled-tests",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-disabled-tests"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-duplicate-hooks",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-duplicate-hooks"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/no-focused-tests",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-focused-tests"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-hooks",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-hooks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-identical-title",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-identical-title"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/no-import-node-test",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-import-node-test"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/no-importing-vitest-globals",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-importing-vitest-globals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-interpolation-in-snapshots",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-interpolation-in-snapshots"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-large-snapshots",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-large-snapshots"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-mocks-import",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-mocks-import"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-restricted-matchers",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-restricted-matchers"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-restricted-vi-methods",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-restricted-vi-methods"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-standalone-expect",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-standalone-expect"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/no-test-prefixes",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-test-prefixes"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/no-test-return-statement",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-test-return-statement"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/no-unneeded-async-expect-function",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "no-unneeded-async-expect-function"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/padding-around-after-all-blocks",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "padding-around-after-all-blocks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/padding-around-test-blocks",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "padding-around-test-blocks"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "vitest/prefer-called-exactly-once-with",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-called-exactly-once-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-called-once",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-called-once"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-called-times",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-called-times"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-called-with",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-called-with"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-comparison-matcher",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-comparison-matcher"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-describe-function-title",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-describe-function-title"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/prefer-each",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-each"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-equality-matcher",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-equality-matcher"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-expect-assertions",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-expect-assertions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-expect-resolves",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-expect-resolves"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-expect-type-of",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-expect-type-of"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/prefer-hooks-in-order",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-hooks-in-order"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/prefer-hooks-on-top",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-hooks-on-top"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-import-in-mock",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-import-in-mock"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-importing-vitest-globals",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-importing-vitest-globals"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-lowercase-title",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-lowercase-title"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "vitest/prefer-mock-promise-shorthand",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-mock-promise-shorthand"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-mock-return-shorthand",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-mock-return-shorthand"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/prefer-snapshot-hint",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-snapshot-hint"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-spy-on",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-spy-on"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-strict-boolean-matchers",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-strict-boolean-matchers"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-strict-equal",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-strict-equal"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-to-be",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-be"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-to-be-falsy",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-be-falsy"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-to-be-object",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-be-object"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/prefer-to-be-truthy",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-be-truthy"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-to-contain",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-contain"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-to-have-been-called-times",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-have-been-called-times"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-to-have-length",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-to-have-length"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vitest/prefer-todo",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "prefer-todo"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-awaited-expect-poll",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-awaited-expect-poll"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-hook",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-hook"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-local-test-context-for-concurrent-snapshots",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-local-test-context-for-concurrent-snapshots"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-mock-type-parameters",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-mock-type-parameters"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-test-timeout",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-test-timeout"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-to-throw-message",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-to-throw-message"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/require-top-level-describe",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "require-top-level-describe"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/valid-describe-callback",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "valid-describe-callback"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vitest/valid-expect",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "valid-expect"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/valid-expect-in-promise",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "valid-expect-in-promise"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "conditional_fix",
+    "id": "vitest/valid-title",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "valid-title"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vitest/warn-todo",
+    "scope": "vitest",
+    "typeAware": false,
+    "value": "warn-todo"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/component-definition-name-casing",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "component-definition-name-casing"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/define-emits-declaration",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "define-emits-declaration"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/define-props-declaration",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "define-props-declaration"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/define-props-destructuring",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "define-props-destructuring"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "none",
+    "id": "vue/max-props",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "max-props"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/next-tick-style",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "next-tick-style"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-arrow-functions-in-watch",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-arrow-functions-in-watch"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-async-in-computed-properties",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-async-in-computed-properties"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-computed-properties-in-data",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-computed-properties-in-data"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/no-deprecated-data-object-declaration",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-data-object-declaration"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-deprecated-delete-set",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-delete-set"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/no-deprecated-destroyed-lifecycle",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-destroyed-lifecycle"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-deprecated-events-api",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-events-api"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/no-deprecated-model-definition",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-model-definition"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/no-deprecated-props-default-this",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-props-default-this"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-deprecated-vue-config-keycodes",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-deprecated-vue-config-keycodes"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-dupe-keys",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-dupe-keys"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-export-in-script-setup",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-export-in-script-setup"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-expose-after-await",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-expose-after-await"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "fixable_dangerous_fix",
+    "id": "vue/no-import-compiler-macros",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-import-compiler-macros"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-lifecycle-after-await",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-lifecycle-after-await"
+  },
+  {
+    "category": "restriction",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/no-multiple-slot-args",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-multiple-slot-args"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "fixable_suggestion",
+    "id": "vue/no-required-prop-with-default",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-required-prop-with-default"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-reserved-component-names",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-reserved-component-names"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-reserved-keys",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-reserved-keys"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-reserved-props",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-reserved-props"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/no-shared-component-data",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-shared-component-data"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-side-effects-in-computed-properties",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-side-effects-in-computed-properties"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-this-in-before-route-enter",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-this-in-before-route-enter"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/no-watch-after-await",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "no-watch-after-await"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/prefer-import-from-vue",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "prefer-import-from-vue"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/prop-name-casing",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "prop-name-casing"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-default-export",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-default-export"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-default-prop",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-default-prop"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-direct-export",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-direct-export"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/require-prop-type-constructor",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-prop-type-constructor"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-prop-types",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-prop-types"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-render-return",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-render-return"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-slots-as-functions",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-slots-as-functions"
+  },
+  {
+    "category": "style",
+    "default": false,
+    "fix": "none",
+    "id": "vue/require-typed-ref",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "require-typed-ref"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/return-in-computed-property",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "return-in-computed-property"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/return-in-emits-validator",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "return-in-emits-validator"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/valid-define-emits",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "valid-define-emits"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "none",
+    "id": "vue/valid-define-options",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "valid-define-options"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "pending",
+    "id": "vue/valid-define-props",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "valid-define-props"
+  },
+  {
+    "category": "correctness",
+    "default": false,
+    "fix": "fixable_fix",
+    "id": "vue/valid-next-tick",
+    "scope": "vue",
+    "typeAware": false,
+    "value": "valid-next-tick"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "fixture-vue",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "dependencies": {
+    "vue": "3.5.0"
+  }
+}

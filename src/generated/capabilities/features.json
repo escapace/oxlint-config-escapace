@@ -1,0 +1,5 @@
+{
+  "languagePlugins": false,
+  "oxlintVersion": "1.87.0",
+  "tsgolintVersion": "7.0.2004"
+}
