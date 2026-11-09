@@ -25,7 +25,7 @@ Guidance for agents working on this package: only what is non-obvious and expens
 ## Task routing
 
 - Adding or removing a plugin, upgrading Oxlint or a plugin, and Oxlint language plugins: follow `docs/development.md`.
-- A new fact about Oxlint: reproduce it with the installed binary outside the repository and record it as a test. Do web research through the firecrawl CLI.
+- A new fact about Oxlint: reproduce it with the installed binary outside the repository and record it as a test.
 - The vendored code in `src/vendor/tsdoc/` and `src/vendor/naming-convention/` has its own agent notes in each README; follow them.
 
 ## Maintenance note

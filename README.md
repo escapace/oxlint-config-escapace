@@ -5,7 +5,7 @@ The shared lint configuration for escapace projects. [Oxlint](https://oxc.rs/doc
 ## Requirements
 
 - Node.js 22.18 or later.
-- Oxlint 1.87 or later, oxlint-tsgolint 7 and ESLint 10.
+- Oxlint 1.90 or later, oxlint-tsgolint 7.0.2005 or later and ESLint 10.
 - For type-aware rules, a `tsconfig.json` that TypeScript 7 accepts.
 - For Astro, Astro 7.3 or later, which installs the compiler ESLint parses templates with. With an older Astro, add `@astrojs/compiler-rs` 0.4 or 0.5.
 
@@ -106,6 +106,8 @@ A project has one `oxlint.config.ts`, at its root:
 - Build the workspace packages before you lint, or type-aware rules see imports between them as `any`.
 
 A package may have its own `eslint.config.mjs`. A separate project in the repository, such as test fixtures, may have its own config files when the enclosing project ignores its folder; lint it from that folder.
+
+An editor's Oxlint language server loads every `oxlint.config.ts` below its folder as a [nested config](https://oxc.rs/docs/guide/usage/linter/nested-config.html), ignored or not, and reports those of separate projects as failing to load. Turn on its `disableNestedConfig` option: with one config per project.
 
 ## Disable comments
 

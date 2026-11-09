@@ -6,4 +6,5 @@
  */
 export interface RuleVueRequireExplicitEmitsOptions {
   allowProps?: boolean
+  ignoreMixins?: boolean
 }

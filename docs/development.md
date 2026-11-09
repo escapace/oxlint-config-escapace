@@ -71,7 +71,7 @@ For a framework, set `detect` and add its id to `FrameworkLanguageId`; the type 
 
 ## Upgrade Oxlint
 
-Update `oxlint` and `oxlint-tsgolint` together, and read their release notes: JS plugins and type-aware linting are outside Oxlint's semver. Ask the owner before widening their peer ranges. Release a raised peer floor as a feature and update the README's requirements. Under the fleet's Renovate policy, peer bumps are titled `chore`; retitle them.
+Update `oxlint` and `oxlint-tsgolint` together, and read their release notes: JS plugins and type-aware linting are outside Oxlint's semver. Ask the owner before widening their peer ranges. Codegen fails until their peer floors reach the installed Oxlint and the oxlint-tsgolint it requires: Oxlint refuses a config that names a rule it lacks, even one turned off. Release a raised peer floor as a feature and update the README's requirements. Under the fleet's Renovate policy, peer bumps are titled `chore`; retitle them.
 
 1. Run codegen and read the diff. New native rules appear in `src/generated/capabilities/native-rules.json`, and rules that move change their `engine` or `engineId` in `rule-index.ts`.
 2. New `correctness` and `suspicious` rules turn on by themselves. Lint this repository and a consumer, and turn unwanted ones off with a comment.

@@ -4637,7 +4637,7 @@
   {
     "category": "style",
     "default": false,
-    "fix": "none",
+    "fix": "fixable_fix",
     "id": "typescript/consistent-type-exports",
     "scope": "typescript",
     "typeAware": true,
@@ -4655,7 +4655,7 @@
   {
     "category": "style",
     "default": false,
-    "fix": "none",
+    "fix": "conditional_fix",
     "id": "typescript/dot-notation",
     "scope": "typescript",
     "typeAware": true,
@@ -4997,7 +4997,7 @@
   {
     "category": "suspicious",
     "default": false,
-    "fix": "pending",
+    "fix": "fixable_fix",
     "id": "typescript/no-unnecessary-boolean-literal-compare",
     "scope": "typescript",
     "typeAware": true,
@@ -5006,7 +5006,7 @@
   {
     "category": "nursery",
     "default": false,
-    "fix": "pending",
+    "fix": "conditional_suggestion",
     "id": "typescript/no-unnecessary-condition",
     "scope": "typescript",
     "typeAware": true,
@@ -5119,6 +5119,15 @@
     "scope": "typescript",
     "typeAware": false,
     "value": "no-unsafe-declaration-merging"
+  },
+  {
+    "category": "suspicious",
+    "default": false,
+    "fix": "none",
+    "id": "typescript/no-unsafe-enum-assignment",
+    "scope": "typescript",
+    "typeAware": true,
+    "value": "no-unsafe-enum-assignment"
   },
   {
     "category": "suspicious",
@@ -5339,7 +5348,7 @@
   {
     "category": "style",
     "default": false,
-    "fix": "none",
+    "fix": "fixable_fix",
     "id": "typescript/prefer-readonly",
     "scope": "typescript",
     "typeAware": true,
@@ -5384,7 +5393,7 @@
   {
     "category": "style",
     "default": false,
-    "fix": "none",
+    "fix": "conditional_fix",
     "id": "typescript/prefer-string-starts-ends-with",
     "scope": "typescript",
     "typeAware": true,

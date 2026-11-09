@@ -93,7 +93,7 @@ export const ruleYamlSortKeysOptionsGithubWorkflows: RuleYamlSortKeysOptions = [
   }),
   sortKeysOption({
     order: ['inputs', 'outputs', 'secrets'],
-    pathPattern: '^on\\.workflow_call$',
+    pathPattern: String.raw`^on\.workflow_call$`,
   }),
   sortKeysOption({
     order: ['description', 'default', 'required', 'type'],

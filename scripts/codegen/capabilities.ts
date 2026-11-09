@@ -3,6 +3,7 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { createRequire } from 'node:module'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
+import { gte, minVersion, satisfies } from 'semver'
 import { aliases } from '../../src/capabilities/aliases.ts'
 import { exclusions } from '../../src/capabilities/exclusions.ts'
 import { parserLevelRules } from '../../src/capabilities/parser-level.ts'
@@ -149,6 +150,45 @@ export const assertExclusionsCurrent = (features: Features): void => {
         `Exclusion of ${exclusion.id} expired at Oxlint ${exclusion.until} (installed ${features.oxlintVersion}); re-evaluate it (${exclusion.issue})`,
       )
     }
+  }
+}
+
+/**
+ * Oxlint refuses a whole config that names a rule it lacks, even one turned
+ * off (1.87), so the generated config needs the Oxlint codegen saw, and that
+ * Oxlint needs its own oxlint-tsgolint floor.
+ */
+export const assertPeerFloorsCurrent = (features: Features): void => {
+  const manifest = readJson(path.resolve(import.meta.dirname, '../../package.json'))
+  const peers =
+    isRecord(manifest) && isRecord(manifest.peerDependencies) ? manifest.peerDependencies : {}
+  const floor = (name: string): string => {
+    const range = peers[name]
+    const version = typeof range === 'string' ? minVersion(range)?.version : undefined
+
+    if (version === undefined) {
+      throw new Error(`package.json declares no ${name} peer range`)
+    }
+
+    return version
+  }
+
+  if (!gte(floor('oxlint'), features.oxlintVersion)) {
+    throw new Error(
+      `The oxlint peer range (${String(peers.oxlint)}) must start at ${features.oxlintVersion}, the version codegen generated for`,
+    )
+  }
+
+  const oxlintManifest = readJson(require.resolve('oxlint/package.json'))
+  const required =
+    isRecord(oxlintManifest) && isRecord(oxlintManifest.peerDependencies)
+      ? oxlintManifest.peerDependencies['oxlint-tsgolint']
+      : undefined
+
+  if (typeof required === 'string' && !satisfies(floor('oxlint-tsgolint'), required)) {
+    throw new Error(
+      `The oxlint-tsgolint peer range (${String(peers['oxlint-tsgolint'])}) must start within ${required}, which Oxlint ${features.oxlintVersion} requires`,
+    )
   }
 }
 

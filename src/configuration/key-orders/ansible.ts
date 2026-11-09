@@ -291,7 +291,7 @@ export const ruleYamlSortKeysOptionsAnsibleMeta: RuleYamlSortKeysOptions = [
   }),
   sortKeysOption({
     order: ['name', 'versions'],
-    pathPattern: '^galaxy_info\\.platforms\\[[0-9]+\\]$',
+    pathPattern: String.raw`^galaxy_info\.platforms\[[0-9]+\]$`,
   }),
   sortKeysOption({
     order: ansibleRoleUseSortKeysOrder,
@@ -373,7 +373,7 @@ export const ruleYamlSortKeysOptionsMolecule: RuleYamlSortKeysOptions = [
       'published_ports',
       'registry',
     ],
-    pathPattern: '^platforms\\[[0-9]+\\]$',
+    pathPattern: String.raw`^platforms\[[0-9]+\]$`,
   }),
   sortKeysOption({
     order: ['name', 'playbooks', 'inventory', 'config_options', 'options', 'env', 'lint'],
@@ -381,6 +381,6 @@ export const ruleYamlSortKeysOptionsMolecule: RuleYamlSortKeysOptions = [
   }),
   sortKeysOption({
     order: ['create', 'destroy', 'prepare', 'converge', 'side_effect', 'verify', 'cleanup'],
-    pathPattern: '^provisioner\\.playbooks$',
+    pathPattern: String.raw`^provisioner\.playbooks$`,
   }),
 ]

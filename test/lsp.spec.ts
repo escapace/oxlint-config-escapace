@@ -134,8 +134,13 @@ const pullDiagnostics = async (
   const uri = pathToFileURL(file).href
   const rootUri = pathToFileURL(workspace).href
 
+  // Without refresh support Oxlint pushes diagnostics and answers pulls with
+  // none (1.90)
   await request('initialize', {
-    capabilities: { textDocument: { diagnostic: {} } },
+    capabilities: {
+      textDocument: { diagnostic: {} },
+      workspace: { diagnostics: { refreshSupport: true } },
+    },
     initializationOptions: [{ options: {}, workspaceUri: rootUri }],
     processId: process.pid,
     rootUri,

@@ -2,7 +2,7 @@
 /**
  * enforce replacements for variable property and filenames
  *
- * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v78.0.0/docs/rules/name-replacements.md
+ * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v79.0.0/docs/rules/name-replacements.md
  */
 export type Replacements = false | BooleanObject
 export type RuleEscapaceNameReplacementsOptions =

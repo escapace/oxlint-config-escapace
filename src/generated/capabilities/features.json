@@ -1,5 +1,5 @@
 {
   "languagePlugins": false,
-  "oxlintVersion": "1.87.0",
-  "tsgolintVersion": "7.0.2004"
+  "oxlintVersion": "1.90.0",
+  "tsgolintVersion": "7.0.2005"
 }

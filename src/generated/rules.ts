@@ -63,6 +63,7 @@ import type { RuleMathPreferMathTruncOptions } from './rule-options/rule-math-pr
 import type { RulePerfectionistSortArrayIncludesOptions } from './rule-options/rule-perfectionist-sort-array-includes-options.ts'
 import type { RulePerfectionistSortArraysOptions } from './rule-options/rule-perfectionist-sort-arrays-options.ts'
 import type { RulePerfectionistSortClassesOptions } from './rule-options/rule-perfectionist-sort-classes-options.ts'
+import type { RulePerfectionistSortConstructorParametersOptions } from './rule-options/rule-perfectionist-sort-constructor-parameters-options.ts'
 import type { RulePerfectionistSortDecoratorsOptions } from './rule-options/rule-perfectionist-sort-decorators-options.ts'
 import type { RulePerfectionistSortEnumsOptions } from './rule-options/rule-perfectionist-sort-enums-options.ts'
 import type { RulePerfectionistSortExportAttributesOptions } from './rule-options/rule-perfectionist-sort-export-attributes-options.ts'
@@ -836,7 +837,7 @@ export interface Rules extends Partial<Record<string, RuleEntryInput>> {
   /**
    * enforce replacements for variable property and filenames
    *
-   * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v78.0.0/docs/rules/name-replacements.md
+   * https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v79.0.0/docs/rules/name-replacements.md
    */
   'escapace/name-replacements'?: RuleEntryInput<
     RuleOptionsInput<RuleEscapaceNameReplacementsOptions>
@@ -1860,6 +1861,14 @@ export interface Rules extends Partial<Record<string, RuleEntryInput>> {
    */
   'perfectionist/sort-classes'?: RuleEntryInput<
     RuleOptionsInput<RulePerfectionistSortClassesOptions>
+  >
+  /**
+   * enforce sorted constructor parameters
+   *
+   * https://perfectionist.dev/rules/sort-constructor-parameters
+   */
+  'perfectionist/sort-constructor-parameters'?: RuleEntryInput<
+    RuleOptionsInput<RulePerfectionistSortConstructorParametersOptions>
   >
   /**
    * enforce sorted decorators
@@ -3669,6 +3678,9 @@ export interface Rules extends Partial<Record<string, RuleEntryInput>> {
   'typescript/no-unsafe-declaration-merging'?: NativeRuleEntryInput<
     NativeRules['typescript/no-unsafe-declaration-merging']
   >
+  'typescript/no-unsafe-enum-assignment'?: NativeRuleEntryInput<
+    NativeRules['typescript/no-unsafe-enum-assignment']
+  >
   'typescript/no-unsafe-enum-comparison'?: NativeRuleEntryInput<
     NativeRules['typescript/no-unsafe-enum-comparison']
   >
@@ -4694,11 +4706,23 @@ export interface Rules extends Partial<Record<string, RuleEntryInput>> {
    */
   'vue/no-constant-condition'?: RuleEntryInput<[RuleVueNoConstantConditionOptions?]>
   /**
+   * disallow content outside of the top level blocks
+   *
+   * https://eslint.vuejs.org/rules/no-content-outside-block.html
+   */
+  'vue/no-content-outside-block'?: RuleEntryInput<[]>
+  /**
    * disallow custom modifiers on v model used on the component
    *
    * https://eslint.vuejs.org/rules/no-custom-modifiers-on-v-model.html
    */
   'vue/no-custom-modifiers-on-v-model'?: RuleEntryInput<[]>
+  /**
+   * disallow default values in `definemodel`
+   *
+   * https://eslint.vuejs.org/rules/no-define-model-default.html
+   */
+  'vue/no-define-model-default'?: RuleEntryInput<[]>
   'vue/no-deprecated-data-object-declaration'?: NativeRuleEntryInput<
     NativeRules['vue/no-deprecated-data-object-declaration']
   >
@@ -4934,6 +4958,12 @@ export interface Rules extends Partial<Record<string, RuleEntryInput>> {
   'vue/no-potential-component-option-typo'?: RuleEntryInput<
     [RuleVueNoPotentialComponentOptionTypoOptions?]
   >
+  /**
+   * disallow declarations that shadow props in ` script setup `
+   *
+   * https://eslint.vuejs.org/rules/no-props-shadow.html
+   */
+  'vue/no-props-shadow'?: RuleEntryInput<[]>
   /**
    * disallow use of value wrapped by `ref ` composition api as an operand
    *

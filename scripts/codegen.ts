@@ -7,6 +7,7 @@ import { route } from '../src/routing/route.ts'
 import { unwrapPlugin } from '../src/engines/eslint/unwrap.ts'
 import {
   assertExclusionsCurrent,
+  assertPeerFloorsCurrent,
   createCapabilities,
   readFeatures,
   readNativeRules,
@@ -26,6 +27,7 @@ const { values } = parseArgs({ options: { check: { default: false, type: 'boolea
 const nativeRules = readNativeRules()
 const features = readFeatures()
 assertExclusionsCurrent(features)
+assertPeerFloorsCurrent(features)
 const capabilities = createCapabilities(nativeRules, features)
 const oxlintSchema = readOxlintSchema()
 

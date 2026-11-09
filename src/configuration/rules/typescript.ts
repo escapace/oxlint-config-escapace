@@ -240,6 +240,7 @@ export const rulesTypescriptIncluded: RuleTableInput = {
   'typescript/no-unnecessary-boolean-literal-compare': 'error',
   'typescript/no-unnecessary-qualifier': 'error',
   'typescript/no-unnecessary-type-arguments': 'error',
+  'typescript/no-unsafe-enum-assignment': 'error',
   'typescript/no-unused-expressions': ['error', { allowShortCircuit: true, allowTaggedTemplates: true, allowTernary: true }],
   'typescript/no-unused-vars': ['error', { args: 'none', argsIgnorePattern: '^_', caughtErrors: 'none', ignoreRestSiblings: true, vars: 'all', varsIgnorePattern: '^_' }],
   'typescript/no-use-before-define': ['error', { classes: false, enums: false, functions: false, typedefs: false, variables: false }],

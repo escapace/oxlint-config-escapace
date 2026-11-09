@@ -122,6 +122,8 @@ export const residualConfiguration: ResidualOutput = {
         'vue/mustache-interpolation-spacing': 'off',
         'vue/no-boolean-default': ['error', 'default-false'],
         'vue/no-child-content': 'error',
+        'vue/no-content-outside-block': 'error',
+        'vue/no-define-model-default': 'error',
         'vue/no-deprecated-dollar-listeners-api': 'error',
         'vue/no-deprecated-dollar-scopedslots-api': 'error',
         'vue/no-deprecated-filter': 'error',
@@ -145,6 +147,7 @@ export const residualConfiguration: ResidualOutput = {
         'vue/no-multi-spaces': 'off',
         'vue/no-mutating-props': 'error',
         'vue/no-parsing-error': 'error',
+        'vue/no-props-shadow': 'error',
         'vue/no-ref-as-operand': 'error',
         'vue/no-ref-object-reactivity-loss': 'error',
         'vue/no-restricted-syntax': [
@@ -1387,6 +1390,6 @@ export const processorMeta: Record<string, { name: string; version: string }> = 
   },
   vue: {
     name: 'escapace/vue',
-    version: '10.11.1',
+    version: '10.12.0',
   },
 }

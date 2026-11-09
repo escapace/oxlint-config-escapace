@@ -65,194 +65,197 @@ import vueRule61 from 'eslint-plugin-vue/dist/rules/no-child-content.js'
 import vueRule62 from 'eslint-plugin-vue/dist/rules/no-computed-properties-in-data.js'
 import vueRule63 from 'eslint-plugin-vue/dist/rules/no-console.js'
 import vueRule64 from 'eslint-plugin-vue/dist/rules/no-constant-condition.js'
-import vueRule65 from 'eslint-plugin-vue/dist/rules/no-custom-modifiers-on-v-model.js'
-import vueRule66 from 'eslint-plugin-vue/dist/rules/no-deprecated-data-object-declaration.js'
-import vueRule67 from 'eslint-plugin-vue/dist/rules/no-deprecated-delete-set.js'
-import vueRule68 from 'eslint-plugin-vue/dist/rules/no-deprecated-destroyed-lifecycle.js'
-import vueRule69 from 'eslint-plugin-vue/dist/rules/no-deprecated-dollar-listeners-api.js'
-import vueRule70 from 'eslint-plugin-vue/dist/rules/no-deprecated-dollar-scopedslots-api.js'
-import vueRule71 from 'eslint-plugin-vue/dist/rules/no-deprecated-events-api.js'
-import vueRule72 from 'eslint-plugin-vue/dist/rules/no-deprecated-filter.js'
-import vueRule73 from 'eslint-plugin-vue/dist/rules/no-deprecated-functional-template.js'
-import vueRule74 from 'eslint-plugin-vue/dist/rules/no-deprecated-html-element-is.js'
-import vueRule75 from 'eslint-plugin-vue/dist/rules/no-deprecated-inline-template.js'
-import vueRule76 from 'eslint-plugin-vue/dist/rules/no-deprecated-model-definition.js'
-import vueRule77 from 'eslint-plugin-vue/dist/rules/no-deprecated-props-default-this.js'
-import vueRule78 from 'eslint-plugin-vue/dist/rules/no-deprecated-router-link-tag-prop.js'
-import vueRule79 from 'eslint-plugin-vue/dist/rules/no-deprecated-scope-attribute.js'
-import vueRule80 from 'eslint-plugin-vue/dist/rules/no-deprecated-slot-attribute.js'
-import vueRule81 from 'eslint-plugin-vue/dist/rules/no-deprecated-slot-scope-attribute.js'
-import vueRule82 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-bind-sync.js'
-import vueRule83 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-is.js'
-import vueRule84 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-on-native-modifier.js'
-import vueRule85 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-on-number-modifiers.js'
-import vueRule86 from 'eslint-plugin-vue/dist/rules/no-deprecated-vue-config-keycodes.js'
-import vueRule87 from 'eslint-plugin-vue/dist/rules/no-dupe-keys.js'
-import vueRule88 from 'eslint-plugin-vue/dist/rules/no-dupe-v-else-if.js'
-import vueRule89 from 'eslint-plugin-vue/dist/rules/no-duplicate-attr-inheritance.js'
-import vueRule90 from 'eslint-plugin-vue/dist/rules/no-duplicate-attributes.js'
-import vueRule91 from 'eslint-plugin-vue/dist/rules/no-duplicate-class-names.js'
-import vueRule92 from 'eslint-plugin-vue/dist/rules/no-empty-component-block.js'
-import vueRule93 from 'eslint-plugin-vue/dist/rules/no-empty-pattern.js'
-import vueRule94 from 'eslint-plugin-vue/dist/rules/no-export-in-script-setup.js'
-import vueRule95 from 'eslint-plugin-vue/dist/rules/no-expose-after-await.js'
-import vueRule96 from 'eslint-plugin-vue/dist/rules/no-extra-parens.js'
-import vueRule97 from 'eslint-plugin-vue/dist/rules/no-implicit-coercion.js'
-import vueRule98 from 'eslint-plugin-vue/dist/rules/no-import-compiler-macros.js'
-import vueRule99 from 'eslint-plugin-vue/dist/rules/no-irregular-whitespace.js'
-import vueRule100 from 'eslint-plugin-vue/dist/rules/no-lifecycle-after-await.js'
-import vueRule101 from 'eslint-plugin-vue/dist/rules/no-literals-in-template.js'
-import vueRule102 from 'eslint-plugin-vue/dist/rules/no-lone-template.js'
-import vueRule103 from 'eslint-plugin-vue/dist/rules/no-loss-of-precision.js'
-import vueRule104 from 'eslint-plugin-vue/dist/rules/no-multi-spaces.js'
-import vueRule105 from 'eslint-plugin-vue/dist/rules/no-multiple-objects-in-class.js'
-import vueRule106 from 'eslint-plugin-vue/dist/rules/no-multiple-slot-args.js'
-import vueRule107 from 'eslint-plugin-vue/dist/rules/no-multiple-template-root.js'
-import vueRule108 from 'eslint-plugin-vue/dist/rules/no-mutating-props.js'
-import vueRule109 from 'eslint-plugin-vue/dist/rules/no-negated-condition.js'
-import vueRule110 from 'eslint-plugin-vue/dist/rules/no-negated-v-if-condition.js'
-import vueRule111 from 'eslint-plugin-vue/dist/rules/no-parsing-error.js'
-import vueRule112 from 'eslint-plugin-vue/dist/rules/no-potential-component-option-typo.js'
-import vueRule113 from 'eslint-plugin-vue/dist/rules/no-ref-as-operand.js'
-import vueRule114 from 'eslint-plugin-vue/dist/rules/no-ref-object-reactivity-loss.js'
-import vueRule115 from 'eslint-plugin-vue/dist/rules/no-required-prop-with-default.js'
-import vueRule116 from 'eslint-plugin-vue/dist/rules/no-reserved-component-names.js'
-import vueRule117 from 'eslint-plugin-vue/dist/rules/no-reserved-keys.js'
-import vueRule118 from 'eslint-plugin-vue/dist/rules/no-reserved-props.js'
-import vueRule119 from 'eslint-plugin-vue/dist/rules/no-restricted-block.js'
-import vueRule120 from 'eslint-plugin-vue/dist/rules/no-restricted-call-after-await.js'
-import vueRule121 from 'eslint-plugin-vue/dist/rules/no-restricted-class.js'
-import vueRule122 from 'eslint-plugin-vue/dist/rules/no-restricted-component-names.js'
-import vueRule123 from 'eslint-plugin-vue/dist/rules/no-restricted-component-options.js'
-import vueRule124 from 'eslint-plugin-vue/dist/rules/no-restricted-custom-event.js'
-import vueRule125 from 'eslint-plugin-vue/dist/rules/no-restricted-html-elements.js'
-import vueRule126 from 'eslint-plugin-vue/dist/rules/no-restricted-props.js'
-import vueRule127 from 'eslint-plugin-vue/dist/rules/no-restricted-static-attribute.js'
-import vueRule128 from 'eslint-plugin-vue/dist/rules/no-restricted-syntax.js'
-import vueRule129 from 'eslint-plugin-vue/dist/rules/no-restricted-v-bind.js'
-import vueRule130 from 'eslint-plugin-vue/dist/rules/no-restricted-v-on.js'
-import vueRule131 from 'eslint-plugin-vue/dist/rules/no-root-v-if.js'
-import vueRule132 from 'eslint-plugin-vue/dist/rules/no-setup-props-reactivity-loss.js'
-import vueRule133 from 'eslint-plugin-vue/dist/rules/no-shadow-native-events.js'
-import vueRule134 from 'eslint-plugin-vue/dist/rules/no-shared-component-data.js'
-import vueRule135 from 'eslint-plugin-vue/dist/rules/no-side-effects-in-computed-properties.js'
-import vueRule136 from 'eslint-plugin-vue/dist/rules/no-spaces-around-equal-signs-in-attribute.js'
-import vueRule137 from 'eslint-plugin-vue/dist/rules/no-sparse-arrays.js'
-import vueRule138 from 'eslint-plugin-vue/dist/rules/no-static-inline-styles.js'
-import vueRule139 from 'eslint-plugin-vue/dist/rules/no-template-key.js'
-import vueRule140 from 'eslint-plugin-vue/dist/rules/no-template-shadow.js'
-import vueRule141 from 'eslint-plugin-vue/dist/rules/no-template-target-blank.js'
-import vueRule142 from 'eslint-plugin-vue/dist/rules/no-textarea-mustache.js'
-import vueRule143 from 'eslint-plugin-vue/dist/rules/no-this-in-before-route-enter.js'
-import vueRule144 from 'eslint-plugin-vue/dist/rules/no-undef-components.js'
-import vueRule145 from 'eslint-plugin-vue/dist/rules/no-undef-directives.js'
-import vueRule146 from 'eslint-plugin-vue/dist/rules/no-undef-properties.js'
-import vueRule147 from 'eslint-plugin-vue/dist/rules/no-unsupported-features.js'
-import vueRule148 from 'eslint-plugin-vue/dist/rules/no-unused-components.js'
-import vueRule149 from 'eslint-plugin-vue/dist/rules/no-unused-emit-declarations.js'
-import vueRule150 from 'eslint-plugin-vue/dist/rules/no-unused-properties.js'
-import vueRule151 from 'eslint-plugin-vue/dist/rules/no-unused-refs.js'
-import vueRule152 from 'eslint-plugin-vue/dist/rules/no-unused-vars.js'
-import vueRule153 from 'eslint-plugin-vue/dist/rules/no-use-computed-property-like-method.js'
-import vueRule154 from 'eslint-plugin-vue/dist/rules/no-use-v-else-with-v-for.js'
-import vueRule155 from 'eslint-plugin-vue/dist/rules/no-use-v-if-with-v-for.js'
-import vueRule156 from 'eslint-plugin-vue/dist/rules/no-useless-concat.js'
-import vueRule157 from 'eslint-plugin-vue/dist/rules/no-useless-mustaches.js'
-import vueRule158 from 'eslint-plugin-vue/dist/rules/no-useless-template-attributes.js'
-import vueRule159 from 'eslint-plugin-vue/dist/rules/no-useless-v-bind.js'
-import vueRule160 from 'eslint-plugin-vue/dist/rules/no-v-for-template-key.js'
-import vueRule161 from 'eslint-plugin-vue/dist/rules/no-v-for-template-key-on-child.js'
-import vueRule162 from 'eslint-plugin-vue/dist/rules/no-v-html.js'
-import vueRule163 from 'eslint-plugin-vue/dist/rules/no-v-model-argument.js'
-import vueRule164 from 'eslint-plugin-vue/dist/rules/no-v-text.js'
-import vueRule165 from 'eslint-plugin-vue/dist/rules/no-v-text-v-html-on-component.js'
-import vueRule166 from 'eslint-plugin-vue/dist/rules/no-watch-after-await.js'
-import vueRule167 from 'eslint-plugin-vue/dist/rules/object-curly-newline.js'
-import vueRule168 from 'eslint-plugin-vue/dist/rules/object-curly-spacing.js'
-import vueRule169 from 'eslint-plugin-vue/dist/rules/object-property-newline.js'
-import vueRule170 from 'eslint-plugin-vue/dist/rules/object-shorthand.js'
-import vueRule171 from 'eslint-plugin-vue/dist/rules/one-component-per-file.js'
-import vueRule172 from 'eslint-plugin-vue/dist/rules/operator-linebreak.js'
-import vueRule173 from 'eslint-plugin-vue/dist/rules/order-in-components.js'
-import vueRule174 from 'eslint-plugin-vue/dist/rules/padding-line-between-blocks.js'
-import vueRule175 from 'eslint-plugin-vue/dist/rules/padding-line-between-tags.js'
-import vueRule176 from 'eslint-plugin-vue/dist/rules/padding-lines-in-component-definition.js'
-import vueRule177 from 'eslint-plugin-vue/dist/rules/prefer-define-options.js'
-import vueRule178 from 'eslint-plugin-vue/dist/rules/prefer-import-from-vue.js'
-import vueRule179 from 'eslint-plugin-vue/dist/rules/prefer-prop-type-boolean-first.js'
-import vueRule180 from 'eslint-plugin-vue/dist/rules/prefer-separate-static-class.js'
-import vueRule181 from 'eslint-plugin-vue/dist/rules/prefer-single-event-payload.js'
-import vueRule182 from 'eslint-plugin-vue/dist/rules/prefer-template.js'
-import vueRule183 from 'eslint-plugin-vue/dist/rules/prefer-true-attribute-shorthand.js'
-import vueRule184 from 'eslint-plugin-vue/dist/rules/prefer-use-template-ref.js'
-import vueRule185 from 'eslint-plugin-vue/dist/rules/prefer-v-model.js'
-import vueRule186 from 'eslint-plugin-vue/dist/rules/prop-name-casing.js'
-import vueRule187 from 'eslint-plugin-vue/dist/rules/quote-props.js'
-import vueRule188 from 'eslint-plugin-vue/dist/rules/require-component-is.js'
-import vueRule189 from 'eslint-plugin-vue/dist/rules/require-default-export.js'
-import vueRule190 from 'eslint-plugin-vue/dist/rules/require-default-prop.js'
-import vueRule191 from 'eslint-plugin-vue/dist/rules/require-direct-export.js'
-import vueRule192 from 'eslint-plugin-vue/dist/rules/require-emit-validator.js'
-import vueRule193 from 'eslint-plugin-vue/dist/rules/require-explicit-emits.js'
-import vueRule194 from 'eslint-plugin-vue/dist/rules/require-explicit-slots.js'
-import vueRule195 from 'eslint-plugin-vue/dist/rules/require-expose.js'
-import vueRule196 from 'eslint-plugin-vue/dist/rules/require-macro-variable-name.js'
-import vueRule197 from 'eslint-plugin-vue/dist/rules/require-name-property.js'
-import vueRule198 from 'eslint-plugin-vue/dist/rules/require-prop-comment.js'
-import vueRule199 from 'eslint-plugin-vue/dist/rules/require-prop-type-constructor.js'
-import vueRule200 from 'eslint-plugin-vue/dist/rules/require-prop-types.js'
-import vueRule201 from 'eslint-plugin-vue/dist/rules/require-render-return.js'
-import vueRule202 from 'eslint-plugin-vue/dist/rules/require-slots-as-functions.js'
-import vueRule203 from 'eslint-plugin-vue/dist/rules/require-toggle-inside-transition.js'
-import vueRule204 from 'eslint-plugin-vue/dist/rules/require-typed-object-prop.js'
-import vueRule205 from 'eslint-plugin-vue/dist/rules/require-typed-ref.js'
-import vueRule206 from 'eslint-plugin-vue/dist/rules/require-v-for-key.js'
-import vueRule207 from 'eslint-plugin-vue/dist/rules/require-valid-default-prop.js'
-import vueRule208 from 'eslint-plugin-vue/dist/rules/restricted-component-names.js'
-import vueRule209 from 'eslint-plugin-vue/dist/rules/return-in-computed-property.js'
-import vueRule210 from 'eslint-plugin-vue/dist/rules/return-in-emits-validator.js'
-import vueRule211 from 'eslint-plugin-vue/dist/rules/script-indent.js'
-import vueRule212 from 'eslint-plugin-vue/dist/rules/singleline-html-element-content-newline.js'
-import vueRule213 from 'eslint-plugin-vue/dist/rules/slot-name-casing.js'
-import vueRule214 from 'eslint-plugin-vue/dist/rules/sort-keys.js'
-import vueRule215 from 'eslint-plugin-vue/dist/rules/space-in-parens.js'
-import vueRule216 from 'eslint-plugin-vue/dist/rules/space-infix-ops.js'
-import vueRule217 from 'eslint-plugin-vue/dist/rules/space-unary-ops.js'
-import vueRule218 from 'eslint-plugin-vue/dist/rules/static-class-names-order.js'
-import vueRule219 from 'eslint-plugin-vue/dist/rules/template-curly-spacing.js'
-import vueRule220 from 'eslint-plugin-vue/dist/rules/this-in-template.js'
-import vueRule221 from 'eslint-plugin-vue/dist/rules/use-v-on-exact.js'
-import vueRule222 from 'eslint-plugin-vue/dist/rules/v-bind-style.js'
-import vueRule223 from 'eslint-plugin-vue/dist/rules/v-for-delimiter-style.js'
-import vueRule224 from 'eslint-plugin-vue/dist/rules/v-if-else-key.js'
-import vueRule225 from 'eslint-plugin-vue/dist/rules/v-on-event-hyphenation.js'
-import vueRule226 from 'eslint-plugin-vue/dist/rules/v-on-handler-style.js'
-import vueRule227 from 'eslint-plugin-vue/dist/rules/v-on-style.js'
-import vueRule228 from 'eslint-plugin-vue/dist/rules/v-slot-style.js'
-import vueRule229 from 'eslint-plugin-vue/dist/rules/valid-attribute-name.js'
-import vueRule230 from 'eslint-plugin-vue/dist/rules/valid-define-emits.js'
-import vueRule231 from 'eslint-plugin-vue/dist/rules/valid-define-options.js'
-import vueRule232 from 'eslint-plugin-vue/dist/rules/valid-define-props.js'
-import vueRule233 from 'eslint-plugin-vue/dist/rules/valid-model-definition.js'
-import vueRule234 from 'eslint-plugin-vue/dist/rules/valid-next-tick.js'
-import vueRule235 from 'eslint-plugin-vue/dist/rules/valid-template-root.js'
-import vueRule236 from 'eslint-plugin-vue/dist/rules/valid-v-bind.js'
-import vueRule237 from 'eslint-plugin-vue/dist/rules/valid-v-bind-sync.js'
-import vueRule238 from 'eslint-plugin-vue/dist/rules/valid-v-cloak.js'
-import vueRule239 from 'eslint-plugin-vue/dist/rules/valid-v-else.js'
-import vueRule240 from 'eslint-plugin-vue/dist/rules/valid-v-else-if.js'
-import vueRule241 from 'eslint-plugin-vue/dist/rules/valid-v-for.js'
-import vueRule242 from 'eslint-plugin-vue/dist/rules/valid-v-html.js'
-import vueRule243 from 'eslint-plugin-vue/dist/rules/valid-v-if.js'
-import vueRule244 from 'eslint-plugin-vue/dist/rules/valid-v-is.js'
-import vueRule245 from 'eslint-plugin-vue/dist/rules/valid-v-memo.js'
-import vueRule246 from 'eslint-plugin-vue/dist/rules/valid-v-model.js'
-import vueRule247 from 'eslint-plugin-vue/dist/rules/valid-v-on.js'
-import vueRule248 from 'eslint-plugin-vue/dist/rules/valid-v-once.js'
-import vueRule249 from 'eslint-plugin-vue/dist/rules/valid-v-pre.js'
-import vueRule250 from 'eslint-plugin-vue/dist/rules/valid-v-show.js'
-import vueRule251 from 'eslint-plugin-vue/dist/rules/valid-v-slot.js'
-import vueRule252 from 'eslint-plugin-vue/dist/rules/valid-v-text.js'
+import vueRule65 from 'eslint-plugin-vue/dist/rules/no-content-outside-block.js'
+import vueRule66 from 'eslint-plugin-vue/dist/rules/no-custom-modifiers-on-v-model.js'
+import vueRule67 from 'eslint-plugin-vue/dist/rules/no-define-model-default.js'
+import vueRule68 from 'eslint-plugin-vue/dist/rules/no-deprecated-data-object-declaration.js'
+import vueRule69 from 'eslint-plugin-vue/dist/rules/no-deprecated-delete-set.js'
+import vueRule70 from 'eslint-plugin-vue/dist/rules/no-deprecated-destroyed-lifecycle.js'
+import vueRule71 from 'eslint-plugin-vue/dist/rules/no-deprecated-dollar-listeners-api.js'
+import vueRule72 from 'eslint-plugin-vue/dist/rules/no-deprecated-dollar-scopedslots-api.js'
+import vueRule73 from 'eslint-plugin-vue/dist/rules/no-deprecated-events-api.js'
+import vueRule74 from 'eslint-plugin-vue/dist/rules/no-deprecated-filter.js'
+import vueRule75 from 'eslint-plugin-vue/dist/rules/no-deprecated-functional-template.js'
+import vueRule76 from 'eslint-plugin-vue/dist/rules/no-deprecated-html-element-is.js'
+import vueRule77 from 'eslint-plugin-vue/dist/rules/no-deprecated-inline-template.js'
+import vueRule78 from 'eslint-plugin-vue/dist/rules/no-deprecated-model-definition.js'
+import vueRule79 from 'eslint-plugin-vue/dist/rules/no-deprecated-props-default-this.js'
+import vueRule80 from 'eslint-plugin-vue/dist/rules/no-deprecated-router-link-tag-prop.js'
+import vueRule81 from 'eslint-plugin-vue/dist/rules/no-deprecated-scope-attribute.js'
+import vueRule82 from 'eslint-plugin-vue/dist/rules/no-deprecated-slot-attribute.js'
+import vueRule83 from 'eslint-plugin-vue/dist/rules/no-deprecated-slot-scope-attribute.js'
+import vueRule84 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-bind-sync.js'
+import vueRule85 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-is.js'
+import vueRule86 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-on-native-modifier.js'
+import vueRule87 from 'eslint-plugin-vue/dist/rules/no-deprecated-v-on-number-modifiers.js'
+import vueRule88 from 'eslint-plugin-vue/dist/rules/no-deprecated-vue-config-keycodes.js'
+import vueRule89 from 'eslint-plugin-vue/dist/rules/no-dupe-keys.js'
+import vueRule90 from 'eslint-plugin-vue/dist/rules/no-dupe-v-else-if.js'
+import vueRule91 from 'eslint-plugin-vue/dist/rules/no-duplicate-attr-inheritance.js'
+import vueRule92 from 'eslint-plugin-vue/dist/rules/no-duplicate-attributes.js'
+import vueRule93 from 'eslint-plugin-vue/dist/rules/no-duplicate-class-names.js'
+import vueRule94 from 'eslint-plugin-vue/dist/rules/no-empty-component-block.js'
+import vueRule95 from 'eslint-plugin-vue/dist/rules/no-empty-pattern.js'
+import vueRule96 from 'eslint-plugin-vue/dist/rules/no-export-in-script-setup.js'
+import vueRule97 from 'eslint-plugin-vue/dist/rules/no-expose-after-await.js'
+import vueRule98 from 'eslint-plugin-vue/dist/rules/no-extra-parens.js'
+import vueRule99 from 'eslint-plugin-vue/dist/rules/no-implicit-coercion.js'
+import vueRule100 from 'eslint-plugin-vue/dist/rules/no-import-compiler-macros.js'
+import vueRule101 from 'eslint-plugin-vue/dist/rules/no-irregular-whitespace.js'
+import vueRule102 from 'eslint-plugin-vue/dist/rules/no-lifecycle-after-await.js'
+import vueRule103 from 'eslint-plugin-vue/dist/rules/no-literals-in-template.js'
+import vueRule104 from 'eslint-plugin-vue/dist/rules/no-lone-template.js'
+import vueRule105 from 'eslint-plugin-vue/dist/rules/no-loss-of-precision.js'
+import vueRule106 from 'eslint-plugin-vue/dist/rules/no-multi-spaces.js'
+import vueRule107 from 'eslint-plugin-vue/dist/rules/no-multiple-objects-in-class.js'
+import vueRule108 from 'eslint-plugin-vue/dist/rules/no-multiple-slot-args.js'
+import vueRule109 from 'eslint-plugin-vue/dist/rules/no-multiple-template-root.js'
+import vueRule110 from 'eslint-plugin-vue/dist/rules/no-mutating-props.js'
+import vueRule111 from 'eslint-plugin-vue/dist/rules/no-negated-condition.js'
+import vueRule112 from 'eslint-plugin-vue/dist/rules/no-negated-v-if-condition.js'
+import vueRule113 from 'eslint-plugin-vue/dist/rules/no-parsing-error.js'
+import vueRule114 from 'eslint-plugin-vue/dist/rules/no-potential-component-option-typo.js'
+import vueRule115 from 'eslint-plugin-vue/dist/rules/no-props-shadow.js'
+import vueRule116 from 'eslint-plugin-vue/dist/rules/no-ref-as-operand.js'
+import vueRule117 from 'eslint-plugin-vue/dist/rules/no-ref-object-reactivity-loss.js'
+import vueRule118 from 'eslint-plugin-vue/dist/rules/no-required-prop-with-default.js'
+import vueRule119 from 'eslint-plugin-vue/dist/rules/no-reserved-component-names.js'
+import vueRule120 from 'eslint-plugin-vue/dist/rules/no-reserved-keys.js'
+import vueRule121 from 'eslint-plugin-vue/dist/rules/no-reserved-props.js'
+import vueRule122 from 'eslint-plugin-vue/dist/rules/no-restricted-block.js'
+import vueRule123 from 'eslint-plugin-vue/dist/rules/no-restricted-call-after-await.js'
+import vueRule124 from 'eslint-plugin-vue/dist/rules/no-restricted-class.js'
+import vueRule125 from 'eslint-plugin-vue/dist/rules/no-restricted-component-names.js'
+import vueRule126 from 'eslint-plugin-vue/dist/rules/no-restricted-component-options.js'
+import vueRule127 from 'eslint-plugin-vue/dist/rules/no-restricted-custom-event.js'
+import vueRule128 from 'eslint-plugin-vue/dist/rules/no-restricted-html-elements.js'
+import vueRule129 from 'eslint-plugin-vue/dist/rules/no-restricted-props.js'
+import vueRule130 from 'eslint-plugin-vue/dist/rules/no-restricted-static-attribute.js'
+import vueRule131 from 'eslint-plugin-vue/dist/rules/no-restricted-syntax.js'
+import vueRule132 from 'eslint-plugin-vue/dist/rules/no-restricted-v-bind.js'
+import vueRule133 from 'eslint-plugin-vue/dist/rules/no-restricted-v-on.js'
+import vueRule134 from 'eslint-plugin-vue/dist/rules/no-root-v-if.js'
+import vueRule135 from 'eslint-plugin-vue/dist/rules/no-setup-props-reactivity-loss.js'
+import vueRule136 from 'eslint-plugin-vue/dist/rules/no-shadow-native-events.js'
+import vueRule137 from 'eslint-plugin-vue/dist/rules/no-shared-component-data.js'
+import vueRule138 from 'eslint-plugin-vue/dist/rules/no-side-effects-in-computed-properties.js'
+import vueRule139 from 'eslint-plugin-vue/dist/rules/no-spaces-around-equal-signs-in-attribute.js'
+import vueRule140 from 'eslint-plugin-vue/dist/rules/no-sparse-arrays.js'
+import vueRule141 from 'eslint-plugin-vue/dist/rules/no-static-inline-styles.js'
+import vueRule142 from 'eslint-plugin-vue/dist/rules/no-template-key.js'
+import vueRule143 from 'eslint-plugin-vue/dist/rules/no-template-shadow.js'
+import vueRule144 from 'eslint-plugin-vue/dist/rules/no-template-target-blank.js'
+import vueRule145 from 'eslint-plugin-vue/dist/rules/no-textarea-mustache.js'
+import vueRule146 from 'eslint-plugin-vue/dist/rules/no-this-in-before-route-enter.js'
+import vueRule147 from 'eslint-plugin-vue/dist/rules/no-undef-components.js'
+import vueRule148 from 'eslint-plugin-vue/dist/rules/no-undef-directives.js'
+import vueRule149 from 'eslint-plugin-vue/dist/rules/no-undef-properties.js'
+import vueRule150 from 'eslint-plugin-vue/dist/rules/no-unsupported-features.js'
+import vueRule151 from 'eslint-plugin-vue/dist/rules/no-unused-components.js'
+import vueRule152 from 'eslint-plugin-vue/dist/rules/no-unused-emit-declarations.js'
+import vueRule153 from 'eslint-plugin-vue/dist/rules/no-unused-properties.js'
+import vueRule154 from 'eslint-plugin-vue/dist/rules/no-unused-refs.js'
+import vueRule155 from 'eslint-plugin-vue/dist/rules/no-unused-vars.js'
+import vueRule156 from 'eslint-plugin-vue/dist/rules/no-use-computed-property-like-method.js'
+import vueRule157 from 'eslint-plugin-vue/dist/rules/no-use-v-else-with-v-for.js'
+import vueRule158 from 'eslint-plugin-vue/dist/rules/no-use-v-if-with-v-for.js'
+import vueRule159 from 'eslint-plugin-vue/dist/rules/no-useless-concat.js'
+import vueRule160 from 'eslint-plugin-vue/dist/rules/no-useless-mustaches.js'
+import vueRule161 from 'eslint-plugin-vue/dist/rules/no-useless-template-attributes.js'
+import vueRule162 from 'eslint-plugin-vue/dist/rules/no-useless-v-bind.js'
+import vueRule163 from 'eslint-plugin-vue/dist/rules/no-v-for-template-key.js'
+import vueRule164 from 'eslint-plugin-vue/dist/rules/no-v-for-template-key-on-child.js'
+import vueRule165 from 'eslint-plugin-vue/dist/rules/no-v-html.js'
+import vueRule166 from 'eslint-plugin-vue/dist/rules/no-v-model-argument.js'
+import vueRule167 from 'eslint-plugin-vue/dist/rules/no-v-text.js'
+import vueRule168 from 'eslint-plugin-vue/dist/rules/no-v-text-v-html-on-component.js'
+import vueRule169 from 'eslint-plugin-vue/dist/rules/no-watch-after-await.js'
+import vueRule170 from 'eslint-plugin-vue/dist/rules/object-curly-newline.js'
+import vueRule171 from 'eslint-plugin-vue/dist/rules/object-curly-spacing.js'
+import vueRule172 from 'eslint-plugin-vue/dist/rules/object-property-newline.js'
+import vueRule173 from 'eslint-plugin-vue/dist/rules/object-shorthand.js'
+import vueRule174 from 'eslint-plugin-vue/dist/rules/one-component-per-file.js'
+import vueRule175 from 'eslint-plugin-vue/dist/rules/operator-linebreak.js'
+import vueRule176 from 'eslint-plugin-vue/dist/rules/order-in-components.js'
+import vueRule177 from 'eslint-plugin-vue/dist/rules/padding-line-between-blocks.js'
+import vueRule178 from 'eslint-plugin-vue/dist/rules/padding-line-between-tags.js'
+import vueRule179 from 'eslint-plugin-vue/dist/rules/padding-lines-in-component-definition.js'
+import vueRule180 from 'eslint-plugin-vue/dist/rules/prefer-define-options.js'
+import vueRule181 from 'eslint-plugin-vue/dist/rules/prefer-import-from-vue.js'
+import vueRule182 from 'eslint-plugin-vue/dist/rules/prefer-prop-type-boolean-first.js'
+import vueRule183 from 'eslint-plugin-vue/dist/rules/prefer-separate-static-class.js'
+import vueRule184 from 'eslint-plugin-vue/dist/rules/prefer-single-event-payload.js'
+import vueRule185 from 'eslint-plugin-vue/dist/rules/prefer-template.js'
+import vueRule186 from 'eslint-plugin-vue/dist/rules/prefer-true-attribute-shorthand.js'
+import vueRule187 from 'eslint-plugin-vue/dist/rules/prefer-use-template-ref.js'
+import vueRule188 from 'eslint-plugin-vue/dist/rules/prefer-v-model.js'
+import vueRule189 from 'eslint-plugin-vue/dist/rules/prop-name-casing.js'
+import vueRule190 from 'eslint-plugin-vue/dist/rules/quote-props.js'
+import vueRule191 from 'eslint-plugin-vue/dist/rules/require-component-is.js'
+import vueRule192 from 'eslint-plugin-vue/dist/rules/require-default-export.js'
+import vueRule193 from 'eslint-plugin-vue/dist/rules/require-default-prop.js'
+import vueRule194 from 'eslint-plugin-vue/dist/rules/require-direct-export.js'
+import vueRule195 from 'eslint-plugin-vue/dist/rules/require-emit-validator.js'
+import vueRule196 from 'eslint-plugin-vue/dist/rules/require-explicit-emits.js'
+import vueRule197 from 'eslint-plugin-vue/dist/rules/require-explicit-slots.js'
+import vueRule198 from 'eslint-plugin-vue/dist/rules/require-expose.js'
+import vueRule199 from 'eslint-plugin-vue/dist/rules/require-macro-variable-name.js'
+import vueRule200 from 'eslint-plugin-vue/dist/rules/require-name-property.js'
+import vueRule201 from 'eslint-plugin-vue/dist/rules/require-prop-comment.js'
+import vueRule202 from 'eslint-plugin-vue/dist/rules/require-prop-type-constructor.js'
+import vueRule203 from 'eslint-plugin-vue/dist/rules/require-prop-types.js'
+import vueRule204 from 'eslint-plugin-vue/dist/rules/require-render-return.js'
+import vueRule205 from 'eslint-plugin-vue/dist/rules/require-slots-as-functions.js'
+import vueRule206 from 'eslint-plugin-vue/dist/rules/require-toggle-inside-transition.js'
+import vueRule207 from 'eslint-plugin-vue/dist/rules/require-typed-object-prop.js'
+import vueRule208 from 'eslint-plugin-vue/dist/rules/require-typed-ref.js'
+import vueRule209 from 'eslint-plugin-vue/dist/rules/require-v-for-key.js'
+import vueRule210 from 'eslint-plugin-vue/dist/rules/require-valid-default-prop.js'
+import vueRule211 from 'eslint-plugin-vue/dist/rules/restricted-component-names.js'
+import vueRule212 from 'eslint-plugin-vue/dist/rules/return-in-computed-property.js'
+import vueRule213 from 'eslint-plugin-vue/dist/rules/return-in-emits-validator.js'
+import vueRule214 from 'eslint-plugin-vue/dist/rules/script-indent.js'
+import vueRule215 from 'eslint-plugin-vue/dist/rules/singleline-html-element-content-newline.js'
+import vueRule216 from 'eslint-plugin-vue/dist/rules/slot-name-casing.js'
+import vueRule217 from 'eslint-plugin-vue/dist/rules/sort-keys.js'
+import vueRule218 from 'eslint-plugin-vue/dist/rules/space-in-parens.js'
+import vueRule219 from 'eslint-plugin-vue/dist/rules/space-infix-ops.js'
+import vueRule220 from 'eslint-plugin-vue/dist/rules/space-unary-ops.js'
+import vueRule221 from 'eslint-plugin-vue/dist/rules/static-class-names-order.js'
+import vueRule222 from 'eslint-plugin-vue/dist/rules/template-curly-spacing.js'
+import vueRule223 from 'eslint-plugin-vue/dist/rules/this-in-template.js'
+import vueRule224 from 'eslint-plugin-vue/dist/rules/use-v-on-exact.js'
+import vueRule225 from 'eslint-plugin-vue/dist/rules/v-bind-style.js'
+import vueRule226 from 'eslint-plugin-vue/dist/rules/v-for-delimiter-style.js'
+import vueRule227 from 'eslint-plugin-vue/dist/rules/v-if-else-key.js'
+import vueRule228 from 'eslint-plugin-vue/dist/rules/v-on-event-hyphenation.js'
+import vueRule229 from 'eslint-plugin-vue/dist/rules/v-on-handler-style.js'
+import vueRule230 from 'eslint-plugin-vue/dist/rules/v-on-style.js'
+import vueRule231 from 'eslint-plugin-vue/dist/rules/v-slot-style.js'
+import vueRule232 from 'eslint-plugin-vue/dist/rules/valid-attribute-name.js'
+import vueRule233 from 'eslint-plugin-vue/dist/rules/valid-define-emits.js'
+import vueRule234 from 'eslint-plugin-vue/dist/rules/valid-define-options.js'
+import vueRule235 from 'eslint-plugin-vue/dist/rules/valid-define-props.js'
+import vueRule236 from 'eslint-plugin-vue/dist/rules/valid-model-definition.js'
+import vueRule237 from 'eslint-plugin-vue/dist/rules/valid-next-tick.js'
+import vueRule238 from 'eslint-plugin-vue/dist/rules/valid-template-root.js'
+import vueRule239 from 'eslint-plugin-vue/dist/rules/valid-v-bind.js'
+import vueRule240 from 'eslint-plugin-vue/dist/rules/valid-v-bind-sync.js'
+import vueRule241 from 'eslint-plugin-vue/dist/rules/valid-v-cloak.js'
+import vueRule242 from 'eslint-plugin-vue/dist/rules/valid-v-else.js'
+import vueRule243 from 'eslint-plugin-vue/dist/rules/valid-v-else-if.js'
+import vueRule244 from 'eslint-plugin-vue/dist/rules/valid-v-for.js'
+import vueRule245 from 'eslint-plugin-vue/dist/rules/valid-v-html.js'
+import vueRule246 from 'eslint-plugin-vue/dist/rules/valid-v-if.js'
+import vueRule247 from 'eslint-plugin-vue/dist/rules/valid-v-is.js'
+import vueRule248 from 'eslint-plugin-vue/dist/rules/valid-v-memo.js'
+import vueRule249 from 'eslint-plugin-vue/dist/rules/valid-v-model.js'
+import vueRule250 from 'eslint-plugin-vue/dist/rules/valid-v-on.js'
+import vueRule251 from 'eslint-plugin-vue/dist/rules/valid-v-once.js'
+import vueRule252 from 'eslint-plugin-vue/dist/rules/valid-v-pre.js'
+import vueRule253 from 'eslint-plugin-vue/dist/rules/valid-v-show.js'
+import vueRule254 from 'eslint-plugin-vue/dist/rules/valid-v-slot.js'
+import vueRule255 from 'eslint-plugin-vue/dist/rules/valid-v-text.js'
 import vueA11yRule0 from 'eslint-plugin-vuejs-accessibility/dist/rules/alt-text.js'
 import vueA11yRule1 from 'eslint-plugin-vuejs-accessibility/dist/rules/anchor-has-content.js'
 import vueA11yRule2 from 'eslint-plugin-vuejs-accessibility/dist/rules/aria-props.js'
@@ -358,194 +361,197 @@ const group: ResidualGroup = {
         'no-computed-properties-in-data': unwrapRule(vueRule62),
         'no-console': unwrapRule(vueRule63),
         'no-constant-condition': unwrapRule(vueRule64),
-        'no-custom-modifiers-on-v-model': unwrapRule(vueRule65),
-        'no-deprecated-data-object-declaration': unwrapRule(vueRule66),
-        'no-deprecated-delete-set': unwrapRule(vueRule67),
-        'no-deprecated-destroyed-lifecycle': unwrapRule(vueRule68),
-        'no-deprecated-dollar-listeners-api': unwrapRule(vueRule69),
-        'no-deprecated-dollar-scopedslots-api': unwrapRule(vueRule70),
-        'no-deprecated-events-api': unwrapRule(vueRule71),
-        'no-deprecated-filter': unwrapRule(vueRule72),
-        'no-deprecated-functional-template': unwrapRule(vueRule73),
-        'no-deprecated-html-element-is': unwrapRule(vueRule74),
-        'no-deprecated-inline-template': unwrapRule(vueRule75),
-        'no-deprecated-model-definition': unwrapRule(vueRule76),
-        'no-deprecated-props-default-this': unwrapRule(vueRule77),
-        'no-deprecated-router-link-tag-prop': unwrapRule(vueRule78),
-        'no-deprecated-scope-attribute': unwrapRule(vueRule79),
-        'no-deprecated-slot-attribute': unwrapRule(vueRule80),
-        'no-deprecated-slot-scope-attribute': unwrapRule(vueRule81),
-        'no-deprecated-v-bind-sync': unwrapRule(vueRule82),
-        'no-deprecated-v-is': unwrapRule(vueRule83),
-        'no-deprecated-v-on-native-modifier': unwrapRule(vueRule84),
-        'no-deprecated-v-on-number-modifiers': unwrapRule(vueRule85),
-        'no-deprecated-vue-config-keycodes': unwrapRule(vueRule86),
-        'no-dupe-keys': unwrapRule(vueRule87),
-        'no-dupe-v-else-if': unwrapRule(vueRule88),
-        'no-duplicate-attr-inheritance': unwrapRule(vueRule89),
-        'no-duplicate-attributes': unwrapRule(vueRule90),
-        'no-duplicate-class-names': unwrapRule(vueRule91),
-        'no-empty-component-block': unwrapRule(vueRule92),
-        'no-empty-pattern': unwrapRule(vueRule93),
-        'no-export-in-script-setup': unwrapRule(vueRule94),
-        'no-expose-after-await': unwrapRule(vueRule95),
-        'no-extra-parens': unwrapRule(vueRule96),
-        'no-implicit-coercion': unwrapRule(vueRule97),
-        'no-import-compiler-macros': unwrapRule(vueRule98),
-        'no-irregular-whitespace': unwrapRule(vueRule99),
-        'no-lifecycle-after-await': unwrapRule(vueRule100),
-        'no-literals-in-template': unwrapRule(vueRule101),
-        'no-lone-template': unwrapRule(vueRule102),
-        'no-loss-of-precision': unwrapRule(vueRule103),
-        'no-multi-spaces': unwrapRule(vueRule104),
-        'no-multiple-objects-in-class': unwrapRule(vueRule105),
-        'no-multiple-slot-args': unwrapRule(vueRule106),
-        'no-multiple-template-root': unwrapRule(vueRule107),
-        'no-mutating-props': unwrapRule(vueRule108),
-        'no-negated-condition': unwrapRule(vueRule109),
-        'no-negated-v-if-condition': unwrapRule(vueRule110),
-        'no-parsing-error': unwrapRule(vueRule111),
-        'no-potential-component-option-typo': unwrapRule(vueRule112),
-        'no-ref-as-operand': unwrapRule(vueRule113),
-        'no-ref-object-reactivity-loss': unwrapRule(vueRule114),
-        'no-required-prop-with-default': unwrapRule(vueRule115),
-        'no-reserved-component-names': unwrapRule(vueRule116),
-        'no-reserved-keys': unwrapRule(vueRule117),
-        'no-reserved-props': unwrapRule(vueRule118),
-        'no-restricted-block': unwrapRule(vueRule119),
-        'no-restricted-call-after-await': unwrapRule(vueRule120),
-        'no-restricted-class': unwrapRule(vueRule121),
-        'no-restricted-component-names': unwrapRule(vueRule122),
-        'no-restricted-component-options': unwrapRule(vueRule123),
-        'no-restricted-custom-event': unwrapRule(vueRule124),
-        'no-restricted-html-elements': unwrapRule(vueRule125),
-        'no-restricted-props': unwrapRule(vueRule126),
-        'no-restricted-static-attribute': unwrapRule(vueRule127),
-        'no-restricted-syntax': unwrapRule(vueRule128),
-        'no-restricted-v-bind': unwrapRule(vueRule129),
-        'no-restricted-v-on': unwrapRule(vueRule130),
-        'no-root-v-if': unwrapRule(vueRule131),
-        'no-setup-props-reactivity-loss': unwrapRule(vueRule132),
-        'no-shadow-native-events': unwrapRule(vueRule133),
-        'no-shared-component-data': unwrapRule(vueRule134),
-        'no-side-effects-in-computed-properties': unwrapRule(vueRule135),
-        'no-spaces-around-equal-signs-in-attribute': unwrapRule(vueRule136),
-        'no-sparse-arrays': unwrapRule(vueRule137),
-        'no-static-inline-styles': unwrapRule(vueRule138),
-        'no-template-key': unwrapRule(vueRule139),
-        'no-template-shadow': unwrapRule(vueRule140),
-        'no-template-target-blank': unwrapRule(vueRule141),
-        'no-textarea-mustache': unwrapRule(vueRule142),
-        'no-this-in-before-route-enter': unwrapRule(vueRule143),
-        'no-undef-components': unwrapRule(vueRule144),
-        'no-undef-directives': unwrapRule(vueRule145),
-        'no-undef-properties': unwrapRule(vueRule146),
-        'no-unsupported-features': unwrapRule(vueRule147),
-        'no-unused-components': unwrapRule(vueRule148),
-        'no-unused-emit-declarations': unwrapRule(vueRule149),
-        'no-unused-properties': unwrapRule(vueRule150),
-        'no-unused-refs': unwrapRule(vueRule151),
-        'no-unused-vars': unwrapRule(vueRule152),
-        'no-use-computed-property-like-method': unwrapRule(vueRule153),
-        'no-use-v-else-with-v-for': unwrapRule(vueRule154),
-        'no-use-v-if-with-v-for': unwrapRule(vueRule155),
-        'no-useless-concat': unwrapRule(vueRule156),
-        'no-useless-mustaches': unwrapRule(vueRule157),
-        'no-useless-template-attributes': unwrapRule(vueRule158),
-        'no-useless-v-bind': unwrapRule(vueRule159),
-        'no-v-for-template-key': unwrapRule(vueRule160),
-        'no-v-for-template-key-on-child': unwrapRule(vueRule161),
-        'no-v-html': unwrapRule(vueRule162),
-        'no-v-model-argument': unwrapRule(vueRule163),
-        'no-v-text': unwrapRule(vueRule164),
-        'no-v-text-v-html-on-component': unwrapRule(vueRule165),
-        'no-watch-after-await': unwrapRule(vueRule166),
-        'object-curly-newline': unwrapRule(vueRule167),
-        'object-curly-spacing': unwrapRule(vueRule168),
-        'object-property-newline': unwrapRule(vueRule169),
-        'object-shorthand': unwrapRule(vueRule170),
-        'one-component-per-file': unwrapRule(vueRule171),
-        'operator-linebreak': unwrapRule(vueRule172),
-        'order-in-components': unwrapRule(vueRule173),
-        'padding-line-between-blocks': unwrapRule(vueRule174),
-        'padding-line-between-tags': unwrapRule(vueRule175),
-        'padding-lines-in-component-definition': unwrapRule(vueRule176),
-        'prefer-define-options': unwrapRule(vueRule177),
-        'prefer-import-from-vue': unwrapRule(vueRule178),
-        'prefer-prop-type-boolean-first': unwrapRule(vueRule179),
-        'prefer-separate-static-class': unwrapRule(vueRule180),
-        'prefer-single-event-payload': unwrapRule(vueRule181),
-        'prefer-template': unwrapRule(vueRule182),
-        'prefer-true-attribute-shorthand': unwrapRule(vueRule183),
-        'prefer-use-template-ref': unwrapRule(vueRule184),
-        'prefer-v-model': unwrapRule(vueRule185),
-        'prop-name-casing': unwrapRule(vueRule186),
-        'quote-props': unwrapRule(vueRule187),
-        'require-component-is': unwrapRule(vueRule188),
-        'require-default-export': unwrapRule(vueRule189),
-        'require-default-prop': unwrapRule(vueRule190),
-        'require-direct-export': unwrapRule(vueRule191),
-        'require-emit-validator': unwrapRule(vueRule192),
-        'require-explicit-emits': unwrapRule(vueRule193),
-        'require-explicit-slots': unwrapRule(vueRule194),
-        'require-expose': unwrapRule(vueRule195),
-        'require-macro-variable-name': unwrapRule(vueRule196),
-        'require-name-property': unwrapRule(vueRule197),
-        'require-prop-comment': unwrapRule(vueRule198),
-        'require-prop-type-constructor': unwrapRule(vueRule199),
-        'require-prop-types': unwrapRule(vueRule200),
-        'require-render-return': unwrapRule(vueRule201),
-        'require-slots-as-functions': unwrapRule(vueRule202),
-        'require-toggle-inside-transition': unwrapRule(vueRule203),
-        'require-typed-object-prop': unwrapRule(vueRule204),
-        'require-typed-ref': unwrapRule(vueRule205),
-        'require-v-for-key': unwrapRule(vueRule206),
-        'require-valid-default-prop': unwrapRule(vueRule207),
-        'restricted-component-names': unwrapRule(vueRule208),
-        'return-in-computed-property': unwrapRule(vueRule209),
-        'return-in-emits-validator': unwrapRule(vueRule210),
-        'script-indent': unwrapRule(vueRule211),
-        'singleline-html-element-content-newline': unwrapRule(vueRule212),
-        'slot-name-casing': unwrapRule(vueRule213),
-        'sort-keys': unwrapRule(vueRule214),
-        'space-in-parens': unwrapRule(vueRule215),
-        'space-infix-ops': unwrapRule(vueRule216),
-        'space-unary-ops': unwrapRule(vueRule217),
-        'static-class-names-order': unwrapRule(vueRule218),
-        'template-curly-spacing': unwrapRule(vueRule219),
-        'this-in-template': unwrapRule(vueRule220),
-        'use-v-on-exact': unwrapRule(vueRule221),
-        'v-bind-style': unwrapRule(vueRule222),
-        'v-for-delimiter-style': unwrapRule(vueRule223),
-        'v-if-else-key': unwrapRule(vueRule224),
-        'v-on-event-hyphenation': unwrapRule(vueRule225),
-        'v-on-handler-style': unwrapRule(vueRule226),
-        'v-on-style': unwrapRule(vueRule227),
-        'v-slot-style': unwrapRule(vueRule228),
-        'valid-attribute-name': unwrapRule(vueRule229),
-        'valid-define-emits': unwrapRule(vueRule230),
-        'valid-define-options': unwrapRule(vueRule231),
-        'valid-define-props': unwrapRule(vueRule232),
-        'valid-model-definition': unwrapRule(vueRule233),
-        'valid-next-tick': unwrapRule(vueRule234),
-        'valid-template-root': unwrapRule(vueRule235),
-        'valid-v-bind': unwrapRule(vueRule236),
-        'valid-v-bind-sync': unwrapRule(vueRule237),
-        'valid-v-cloak': unwrapRule(vueRule238),
-        'valid-v-else': unwrapRule(vueRule239),
-        'valid-v-else-if': unwrapRule(vueRule240),
-        'valid-v-for': unwrapRule(vueRule241),
-        'valid-v-html': unwrapRule(vueRule242),
-        'valid-v-if': unwrapRule(vueRule243),
-        'valid-v-is': unwrapRule(vueRule244),
-        'valid-v-memo': unwrapRule(vueRule245),
-        'valid-v-model': unwrapRule(vueRule246),
-        'valid-v-on': unwrapRule(vueRule247),
-        'valid-v-once': unwrapRule(vueRule248),
-        'valid-v-pre': unwrapRule(vueRule249),
-        'valid-v-show': unwrapRule(vueRule250),
-        'valid-v-slot': unwrapRule(vueRule251),
-        'valid-v-text': unwrapRule(vueRule252),
+        'no-content-outside-block': unwrapRule(vueRule65),
+        'no-custom-modifiers-on-v-model': unwrapRule(vueRule66),
+        'no-define-model-default': unwrapRule(vueRule67),
+        'no-deprecated-data-object-declaration': unwrapRule(vueRule68),
+        'no-deprecated-delete-set': unwrapRule(vueRule69),
+        'no-deprecated-destroyed-lifecycle': unwrapRule(vueRule70),
+        'no-deprecated-dollar-listeners-api': unwrapRule(vueRule71),
+        'no-deprecated-dollar-scopedslots-api': unwrapRule(vueRule72),
+        'no-deprecated-events-api': unwrapRule(vueRule73),
+        'no-deprecated-filter': unwrapRule(vueRule74),
+        'no-deprecated-functional-template': unwrapRule(vueRule75),
+        'no-deprecated-html-element-is': unwrapRule(vueRule76),
+        'no-deprecated-inline-template': unwrapRule(vueRule77),
+        'no-deprecated-model-definition': unwrapRule(vueRule78),
+        'no-deprecated-props-default-this': unwrapRule(vueRule79),
+        'no-deprecated-router-link-tag-prop': unwrapRule(vueRule80),
+        'no-deprecated-scope-attribute': unwrapRule(vueRule81),
+        'no-deprecated-slot-attribute': unwrapRule(vueRule82),
+        'no-deprecated-slot-scope-attribute': unwrapRule(vueRule83),
+        'no-deprecated-v-bind-sync': unwrapRule(vueRule84),
+        'no-deprecated-v-is': unwrapRule(vueRule85),
+        'no-deprecated-v-on-native-modifier': unwrapRule(vueRule86),
+        'no-deprecated-v-on-number-modifiers': unwrapRule(vueRule87),
+        'no-deprecated-vue-config-keycodes': unwrapRule(vueRule88),
+        'no-dupe-keys': unwrapRule(vueRule89),
+        'no-dupe-v-else-if': unwrapRule(vueRule90),
+        'no-duplicate-attr-inheritance': unwrapRule(vueRule91),
+        'no-duplicate-attributes': unwrapRule(vueRule92),
+        'no-duplicate-class-names': unwrapRule(vueRule93),
+        'no-empty-component-block': unwrapRule(vueRule94),
+        'no-empty-pattern': unwrapRule(vueRule95),
+        'no-export-in-script-setup': unwrapRule(vueRule96),
+        'no-expose-after-await': unwrapRule(vueRule97),
+        'no-extra-parens': unwrapRule(vueRule98),
+        'no-implicit-coercion': unwrapRule(vueRule99),
+        'no-import-compiler-macros': unwrapRule(vueRule100),
+        'no-irregular-whitespace': unwrapRule(vueRule101),
+        'no-lifecycle-after-await': unwrapRule(vueRule102),
+        'no-literals-in-template': unwrapRule(vueRule103),
+        'no-lone-template': unwrapRule(vueRule104),
+        'no-loss-of-precision': unwrapRule(vueRule105),
+        'no-multi-spaces': unwrapRule(vueRule106),
+        'no-multiple-objects-in-class': unwrapRule(vueRule107),
+        'no-multiple-slot-args': unwrapRule(vueRule108),
+        'no-multiple-template-root': unwrapRule(vueRule109),
+        'no-mutating-props': unwrapRule(vueRule110),
+        'no-negated-condition': unwrapRule(vueRule111),
+        'no-negated-v-if-condition': unwrapRule(vueRule112),
+        'no-parsing-error': unwrapRule(vueRule113),
+        'no-potential-component-option-typo': unwrapRule(vueRule114),
+        'no-props-shadow': unwrapRule(vueRule115),
+        'no-ref-as-operand': unwrapRule(vueRule116),
+        'no-ref-object-reactivity-loss': unwrapRule(vueRule117),
+        'no-required-prop-with-default': unwrapRule(vueRule118),
+        'no-reserved-component-names': unwrapRule(vueRule119),
+        'no-reserved-keys': unwrapRule(vueRule120),
+        'no-reserved-props': unwrapRule(vueRule121),
+        'no-restricted-block': unwrapRule(vueRule122),
+        'no-restricted-call-after-await': unwrapRule(vueRule123),
+        'no-restricted-class': unwrapRule(vueRule124),
+        'no-restricted-component-names': unwrapRule(vueRule125),
+        'no-restricted-component-options': unwrapRule(vueRule126),
+        'no-restricted-custom-event': unwrapRule(vueRule127),
+        'no-restricted-html-elements': unwrapRule(vueRule128),
+        'no-restricted-props': unwrapRule(vueRule129),
+        'no-restricted-static-attribute': unwrapRule(vueRule130),
+        'no-restricted-syntax': unwrapRule(vueRule131),
+        'no-restricted-v-bind': unwrapRule(vueRule132),
+        'no-restricted-v-on': unwrapRule(vueRule133),
+        'no-root-v-if': unwrapRule(vueRule134),
+        'no-setup-props-reactivity-loss': unwrapRule(vueRule135),
+        'no-shadow-native-events': unwrapRule(vueRule136),
+        'no-shared-component-data': unwrapRule(vueRule137),
+        'no-side-effects-in-computed-properties': unwrapRule(vueRule138),
+        'no-spaces-around-equal-signs-in-attribute': unwrapRule(vueRule139),
+        'no-sparse-arrays': unwrapRule(vueRule140),
+        'no-static-inline-styles': unwrapRule(vueRule141),
+        'no-template-key': unwrapRule(vueRule142),
+        'no-template-shadow': unwrapRule(vueRule143),
+        'no-template-target-blank': unwrapRule(vueRule144),
+        'no-textarea-mustache': unwrapRule(vueRule145),
+        'no-this-in-before-route-enter': unwrapRule(vueRule146),
+        'no-undef-components': unwrapRule(vueRule147),
+        'no-undef-directives': unwrapRule(vueRule148),
+        'no-undef-properties': unwrapRule(vueRule149),
+        'no-unsupported-features': unwrapRule(vueRule150),
+        'no-unused-components': unwrapRule(vueRule151),
+        'no-unused-emit-declarations': unwrapRule(vueRule152),
+        'no-unused-properties': unwrapRule(vueRule153),
+        'no-unused-refs': unwrapRule(vueRule154),
+        'no-unused-vars': unwrapRule(vueRule155),
+        'no-use-computed-property-like-method': unwrapRule(vueRule156),
+        'no-use-v-else-with-v-for': unwrapRule(vueRule157),
+        'no-use-v-if-with-v-for': unwrapRule(vueRule158),
+        'no-useless-concat': unwrapRule(vueRule159),
+        'no-useless-mustaches': unwrapRule(vueRule160),
+        'no-useless-template-attributes': unwrapRule(vueRule161),
+        'no-useless-v-bind': unwrapRule(vueRule162),
+        'no-v-for-template-key': unwrapRule(vueRule163),
+        'no-v-for-template-key-on-child': unwrapRule(vueRule164),
+        'no-v-html': unwrapRule(vueRule165),
+        'no-v-model-argument': unwrapRule(vueRule166),
+        'no-v-text': unwrapRule(vueRule167),
+        'no-v-text-v-html-on-component': unwrapRule(vueRule168),
+        'no-watch-after-await': unwrapRule(vueRule169),
+        'object-curly-newline': unwrapRule(vueRule170),
+        'object-curly-spacing': unwrapRule(vueRule171),
+        'object-property-newline': unwrapRule(vueRule172),
+        'object-shorthand': unwrapRule(vueRule173),
+        'one-component-per-file': unwrapRule(vueRule174),
+        'operator-linebreak': unwrapRule(vueRule175),
+        'order-in-components': unwrapRule(vueRule176),
+        'padding-line-between-blocks': unwrapRule(vueRule177),
+        'padding-line-between-tags': unwrapRule(vueRule178),
+        'padding-lines-in-component-definition': unwrapRule(vueRule179),
+        'prefer-define-options': unwrapRule(vueRule180),
+        'prefer-import-from-vue': unwrapRule(vueRule181),
+        'prefer-prop-type-boolean-first': unwrapRule(vueRule182),
+        'prefer-separate-static-class': unwrapRule(vueRule183),
+        'prefer-single-event-payload': unwrapRule(vueRule184),
+        'prefer-template': unwrapRule(vueRule185),
+        'prefer-true-attribute-shorthand': unwrapRule(vueRule186),
+        'prefer-use-template-ref': unwrapRule(vueRule187),
+        'prefer-v-model': unwrapRule(vueRule188),
+        'prop-name-casing': unwrapRule(vueRule189),
+        'quote-props': unwrapRule(vueRule190),
+        'require-component-is': unwrapRule(vueRule191),
+        'require-default-export': unwrapRule(vueRule192),
+        'require-default-prop': unwrapRule(vueRule193),
+        'require-direct-export': unwrapRule(vueRule194),
+        'require-emit-validator': unwrapRule(vueRule195),
+        'require-explicit-emits': unwrapRule(vueRule196),
+        'require-explicit-slots': unwrapRule(vueRule197),
+        'require-expose': unwrapRule(vueRule198),
+        'require-macro-variable-name': unwrapRule(vueRule199),
+        'require-name-property': unwrapRule(vueRule200),
+        'require-prop-comment': unwrapRule(vueRule201),
+        'require-prop-type-constructor': unwrapRule(vueRule202),
+        'require-prop-types': unwrapRule(vueRule203),
+        'require-render-return': unwrapRule(vueRule204),
+        'require-slots-as-functions': unwrapRule(vueRule205),
+        'require-toggle-inside-transition': unwrapRule(vueRule206),
+        'require-typed-object-prop': unwrapRule(vueRule207),
+        'require-typed-ref': unwrapRule(vueRule208),
+        'require-v-for-key': unwrapRule(vueRule209),
+        'require-valid-default-prop': unwrapRule(vueRule210),
+        'restricted-component-names': unwrapRule(vueRule211),
+        'return-in-computed-property': unwrapRule(vueRule212),
+        'return-in-emits-validator': unwrapRule(vueRule213),
+        'script-indent': unwrapRule(vueRule214),
+        'singleline-html-element-content-newline': unwrapRule(vueRule215),
+        'slot-name-casing': unwrapRule(vueRule216),
+        'sort-keys': unwrapRule(vueRule217),
+        'space-in-parens': unwrapRule(vueRule218),
+        'space-infix-ops': unwrapRule(vueRule219),
+        'space-unary-ops': unwrapRule(vueRule220),
+        'static-class-names-order': unwrapRule(vueRule221),
+        'template-curly-spacing': unwrapRule(vueRule222),
+        'this-in-template': unwrapRule(vueRule223),
+        'use-v-on-exact': unwrapRule(vueRule224),
+        'v-bind-style': unwrapRule(vueRule225),
+        'v-for-delimiter-style': unwrapRule(vueRule226),
+        'v-if-else-key': unwrapRule(vueRule227),
+        'v-on-event-hyphenation': unwrapRule(vueRule228),
+        'v-on-handler-style': unwrapRule(vueRule229),
+        'v-on-style': unwrapRule(vueRule230),
+        'v-slot-style': unwrapRule(vueRule231),
+        'valid-attribute-name': unwrapRule(vueRule232),
+        'valid-define-emits': unwrapRule(vueRule233),
+        'valid-define-options': unwrapRule(vueRule234),
+        'valid-define-props': unwrapRule(vueRule235),
+        'valid-model-definition': unwrapRule(vueRule236),
+        'valid-next-tick': unwrapRule(vueRule237),
+        'valid-template-root': unwrapRule(vueRule238),
+        'valid-v-bind': unwrapRule(vueRule239),
+        'valid-v-bind-sync': unwrapRule(vueRule240),
+        'valid-v-cloak': unwrapRule(vueRule241),
+        'valid-v-else': unwrapRule(vueRule242),
+        'valid-v-else-if': unwrapRule(vueRule243),
+        'valid-v-for': unwrapRule(vueRule244),
+        'valid-v-html': unwrapRule(vueRule245),
+        'valid-v-if': unwrapRule(vueRule246),
+        'valid-v-is': unwrapRule(vueRule247),
+        'valid-v-memo': unwrapRule(vueRule248),
+        'valid-v-model': unwrapRule(vueRule249),
+        'valid-v-on': unwrapRule(vueRule250),
+        'valid-v-once': unwrapRule(vueRule251),
+        'valid-v-pre': unwrapRule(vueRule252),
+        'valid-v-show': unwrapRule(vueRule253),
+        'valid-v-slot': unwrapRule(vueRule254),
+        'valid-v-text': unwrapRule(vueRule255),
       },
     },
     'vue-a11y': {

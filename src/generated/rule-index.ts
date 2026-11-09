@@ -3244,6 +3244,12 @@ export const ruleIndex: Record<string, RuleIndexEntry> = {
     languages: ['typescript', 'javascript'],
     typeAware: false,
   },
+  'perfectionist/sort-constructor-parameters': {
+    engine: 'oxlint',
+    engineId: 'perfectionist/sort-constructor-parameters',
+    languages: ['typescript', 'javascript', 'vue', 'astro'],
+    typeAware: false,
+  },
   'perfectionist/sort-decorators': {
     engine: 'oxlint',
     engineId: 'perfectionist/sort-decorators',
@@ -5632,6 +5638,12 @@ export const ruleIndex: Record<string, RuleIndexEntry> = {
     languages: ['typescript', 'javascript'],
     typeAware: false,
   },
+  'typescript/no-unsafe-enum-assignment': {
+    engine: 'oxlint',
+    engineId: 'typescript/no-unsafe-enum-assignment',
+    languages: ['typescript', 'javascript'],
+    typeAware: true,
+  },
   'typescript/no-unsafe-enum-comparison': {
     engine: 'oxlint',
     engineId: 'typescript/no-unsafe-enum-comparison',
@@ -7720,9 +7732,21 @@ export const ruleIndex: Record<string, RuleIndexEntry> = {
     languages: ['vue'],
     typeAware: false,
   },
+  'vue/no-content-outside-block': {
+    engine: 'eslint',
+    engineId: 'vue/no-content-outside-block',
+    languages: ['vue'],
+    typeAware: false,
+  },
   'vue/no-custom-modifiers-on-v-model': {
     engine: 'eslint',
     engineId: 'vue/no-custom-modifiers-on-v-model',
+    languages: ['vue'],
+    typeAware: false,
+  },
+  'vue/no-define-model-default': {
+    engine: 'eslint',
+    engineId: 'vue/no-define-model-default',
     languages: ['vue'],
     typeAware: false,
   },
@@ -8005,6 +8029,12 @@ export const ruleIndex: Record<string, RuleIndexEntry> = {
   'vue/no-potential-component-option-typo': {
     engine: 'eslint',
     engineId: 'vue/no-potential-component-option-typo',
+    languages: ['vue'],
+    typeAware: false,
+  },
+  'vue/no-props-shadow': {
+    engine: 'eslint',
+    engineId: 'vue/no-props-shadow',
     languages: ['vue'],
     typeAware: false,
   },

@@ -5,7 +5,7 @@
 This directory vendors typescript-eslint's `naming-convention` rule without TypeScript, for the `escapace` Oxlint plugin (`escapace/naming-convention`). Oxlint gives JS plugins no type information, and the upstream rule loads the TypeScript compiler at import time only to serve its type-based options.
 
 Upstream source: https://github.com/typescript-eslint/typescript-eslint/tree/v8.71.1/packages/eslint-plugin/src/rules/naming-convention.ts and `naming-convention-utils/`, plus `util/collectUnusedVariables.ts`, `util/isTypeImport.ts`, `util/isTypeOnlyReference.ts`, `util/referenceContainsTypePredicate.ts`, `util/referenceContainsTypeQuery.ts`, `util/misc.ts` (`getEnumNames`) and `type-utils/src/requiresQuoting.ts`.
-Vendored version: `v8.71.1`. Upstream left the rule unchanged in `v8.71.2`, the installed `@typescript-eslint/*` version.
+Vendored version: `v8.71.1`. Upstream left the rule unchanged through `v8.72.1`, the installed `@typescript-eslint/*` version.
 
 ## Critical non-obvious constraints
 

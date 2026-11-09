@@ -13,6 +13,7 @@ export interface RuleVueBlockLangOptions {
     | {
         allowNoLang?: boolean
         lang?: string | string[]
+        required?: boolean
       }
     | undefined
 }
