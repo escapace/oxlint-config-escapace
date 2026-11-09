@@ -126,6 +126,16 @@ describe('colour', () => {
     expect(wantsColour(undefined)).toBe(false)
   })
 
+  it('removes CI only from the colour-disabled Oxlint environment', () => {
+    const environment = { CI: 'true', GITHUB_ACTIONS: 'true' }
+    expect(colourEnvironment(false, environment)).toEqual({
+      GITHUB_ACTIONS: 'true',
+      NO_COLOR: '1',
+    })
+    expect(colourEnvironment(true, environment)).toEqual({ ...environment, FORCE_COLOR: '1' })
+    expect(environment).toEqual({ CI: 'true', GITHUB_ACTIONS: 'true' })
+  })
+
   it('tells Oxlint the decision without leaving a contradicting variable', () => {
     expect(colourEnvironment(false, { FORCE_COLOR: '0', PATH: '/bin' })).toEqual({
       NO_COLOR: '1',

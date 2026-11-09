@@ -17,10 +17,12 @@ export const wantsColour = (flag: boolean | undefined): boolean =>
 const FORCING = new Set(['', '1', '2', '3', 'true'])
 
 /**
- * Oxlint's environment carrying the decision. Oxlint honours NO_COLOR and
- * lets FORCE_COLOR beat it, so the variables that would contradict the
- * decision are dropped (Node also warns when NO_COLOR or NODE_DISABLE_COLORS
- * meet FORCE_COLOR); FORCE_COLOR at a terminal leaves its output unchanged.
+ * Returns an Oxlint subprocess environment with the shared colour decision.
+ *
+ * @remarks
+ * Oxlint 1.87 forces diagnostic colours when `CI` is present, even with `NO_COLOR`.
+ * Disabling colour therefore removes `CI` from this copy, not from the caller.
+ * Conflicting colour variables are removed to avoid Node warnings.
  */
 export const colourEnvironment = (
   colour: boolean,
@@ -34,6 +36,7 @@ export const colourEnvironment = (
     result.FORCE_COLOR =
       result.FORCE_COLOR !== undefined && FORCING.has(result.FORCE_COLOR) ? result.FORCE_COLOR : '1'
   } else {
+    delete result.CI
     delete result.FORCE_COLOR
     result.NO_COLOR = '1'
   }

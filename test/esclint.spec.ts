@@ -118,6 +118,21 @@ describe('esclint', { timeout: 60_000 }, () => {
     }
   })
 
+  it('honours --no-color in CI even when FORCE_COLOR is set', () => {
+    const plain = esclintWith(
+      { CI: 'true', FORCE_COLOR: '1', GITHUB_ACTIONS: 'true', NO_COLOR: undefined },
+      'both',
+      '--no-color',
+      '--format',
+      'default',
+    )
+    expect(plain.code).toBe(1)
+    expect(plain.stdout).toContain('no-explicit-any')
+    expect(plain.stdout).toContain('yaml(sort-keys)')
+    expect(plain.stdout).not.toContain('\u001B[')
+    expect(plain.stderr).not.toContain('\u001B[')
+  })
+
   it('skips the residual when only oxlint.config.ts exists, even for YAML paths', () => {
     const run = esclint('oxlint-only')
     expect(run.code).toBe(1)
