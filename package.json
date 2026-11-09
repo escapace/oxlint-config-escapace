@@ -70,7 +70,7 @@
     "packageManager": {
       "name": "pnpm",
       "onFail": "warn",
-      "version": "^11.20.0"
+      "version": "^12.15.0"
     },
     "runtime": {
       "name": "node",
@@ -127,8 +127,8 @@
     "build": "pnpm run codegen && tsx scripts/build.ts",
     "codegen": "tsx scripts/codegen.ts",
     "fallow": "fallow dead-code --fail-on-issues",
-    "format": "syncpack format && esclint --fix && oxfmt",
-    "lint": "ls-lint --config .ls-lint.yaml && pnpm run fallow && esclint",
+    "format": "syncpack format && node lib/node/esclint.js --fix && oxfmt",
+    "lint": "ls-lint --config .ls-lint.yaml && pnpm run fallow && node lib/node/esclint.js",
     "ls-lint": "ls-lint --config .ls-lint.yaml",
     "pack": "pnpm-pack package --pack-destination lib",
     "prepare": "lefthook install",

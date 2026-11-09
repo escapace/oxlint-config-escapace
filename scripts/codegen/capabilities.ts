@@ -1,5 +1,7 @@
 import { execFileSync } from 'node:child_process'
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { createRequire } from 'node:module'
+import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { aliases } from '../../src/capabilities/aliases.ts'
 import { exclusions } from '../../src/capabilities/exclusions.ts'
@@ -8,7 +10,7 @@ import { plugins } from '../../src/capabilities/plugins.ts'
 import type { Capabilities, NativeRule } from '../../src/routing/types.ts'
 import { isRecord } from '../../src/utilities/is-record.ts'
 import { packageVersion, readJson } from '../../src/utilities/read-json.ts'
-import { oxlintBinary, rootDirectory } from './paths.ts'
+import { oxlintBinary } from './paths.ts'
 
 const require = createRequire(import.meta.url)
 
@@ -49,30 +51,39 @@ const isCatalogEntry = (value: unknown): value is CatalogEntry =>
   (value.docs_url === undefined || typeof value.docs_url === 'string')
 
 export const readNativeRules = (): NativeRuleRecord[] => {
-  const output = execFileSync(oxlintBinary, ['--rules', '--format', 'json'], {
-    cwd: rootDirectory,
-    encoding: 'utf8',
-  })
-  const catalog: unknown = JSON.parse(output)
-  const entries = Array.isArray(catalog) ? catalog.filter((entry) => isCatalogEntry(entry)) : []
+  // Even --rules loads project configuration, whose self-import needs a build. Probe in isolation.
+  const directory = mkdtempSync(path.join(tmpdir(), 'esclint-native-rules-'))
 
-  if (!Array.isArray(catalog) || entries.length !== catalog.length) {
-    throw new Error(
-      '`oxlint --rules --format json` changed shape: expected an array of { scope, value, category, type_aware, fix, default }',
-    )
+  try {
+    const config = path.join(directory, '.oxlintrc.json')
+    writeFileSync(config, '{}\n')
+    const output = execFileSync(oxlintBinary, ['--rules', '--format', 'json', '-c', config], {
+      cwd: directory,
+      encoding: 'utf8',
+    })
+    const catalog: unknown = JSON.parse(output)
+    const entries = Array.isArray(catalog) ? catalog.filter((entry) => isCatalogEntry(entry)) : []
+
+    if (!Array.isArray(catalog) || entries.length !== catalog.length) {
+      throw new Error(
+        '`oxlint --rules --format json` changed shape: expected an array of { scope, value, category, type_aware, fix, default }',
+      )
+    }
+
+    return entries
+      .map((entry) => ({
+        category: entry.category,
+        default: entry.default,
+        fix: entry.fix,
+        id: `${entry.scope}/${entry.value}`,
+        scope: entry.scope,
+        typeAware: entry.type_aware,
+        value: entry.value,
+      }))
+      .toSorted((a, b) => a.id.localeCompare(b.id))
+  } finally {
+    rmSync(directory, { force: true, recursive: true })
   }
-
-  return entries
-    .map((entry) => ({
-      category: entry.category,
-      default: entry.default,
-      fix: entry.fix,
-      id: `${entry.scope}/${entry.value}`,
-      scope: entry.scope,
-      typeAware: entry.type_aware,
-      value: entry.value,
-    }))
-    .toSorted((a, b) => a.id.localeCompare(b.id))
 }
 
 const readConfigurationSchema = (): Record<string, unknown> => {

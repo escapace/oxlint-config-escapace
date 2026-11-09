@@ -50,7 +50,7 @@ pre-commit:
         - src/generated/**
       glob: '*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue,yml,yaml,json,json5,jsonc,toml}'
       priority: 5
-      run: pnpm exec esclint --fix {staged_files}
+      run: node lib/node/esclint.js --fix {staged_files}
       stage_fixed: true
 
     oxfmt:

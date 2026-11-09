@@ -199,12 +199,24 @@ describe('path partition', () => {
 
   it('sends Svelte files to Oxlint, Astro files to both, and files Git ignores to neither', () => {
     const cwd = mkdtempSync(path.join(scratch, 'esclint-partition-git-'))
-    spawnSync('git', ['init', '--quiet'], { cwd })
-    writeFileSync(path.join(cwd, '.gitignore'), 'generated/\n')
+    const variables = spawnSync('git', ['rev-parse', '--local-env-vars'], { encoding: 'utf8' })
+    expect(variables.status, variables.stderr).toBe(0)
 
-    expect(
-      partitionPaths(cwd, ['a.svelte', 'b.astro', 'generated/c.ts', 'generated/c.yaml', 'd.ts']),
-    ).toEqual({ oxlint: ['a.svelte', 'b.astro', 'd.ts'], residual: ['b.astro'] })
+    // Hooks export GIT_DIR and other repository state; git init must not modify the caller's repo.
+    try {
+      for (const name of variables.stdout.trim().split('\n')) {
+        vi.stubEnv(name, undefined)
+      }
+      const initialized = spawnSync('git', ['init', '--quiet'], { cwd, encoding: 'utf8' })
+      expect(initialized.status, initialized.stderr).toBe(0)
+      writeFileSync(path.join(cwd, '.gitignore'), 'generated/\n')
+
+      expect(
+        partitionPaths(cwd, ['a.svelte', 'b.astro', 'generated/c.ts', 'generated/c.yaml', 'd.ts']),
+      ).toEqual({ oxlint: ['a.svelte', 'b.astro', 'd.ts'], residual: ['b.astro'] })
+    } finally {
+      vi.unstubAllEnvs()
+    }
   })
 })
 
